@@ -9,14 +9,14 @@ public class SentPage extends AbstractPage{
     @FindBy(xpath = "//a[@data-testid='navigation-link:all-sent']")
     private WebElement sentFolder;
     @FindBy(xpath = "//span[@data-testid='message-row:subject']")
-    private WebElement lastEmailTheme;
+    private WebElement lastEmailSubject;
 
     public void openSentFolder() {
         wait.until(visibilityOf(sentFolder)).click();
     }
 
     public String checkLastEmail() {
-        wait.until(visibilityOf(lastEmailTheme));
-        return lastEmailTheme.getAttribute("title");
+        wait.until(visibilityOf(lastEmailSubject));
+        return lastEmailSubject.getAttribute("title");
     }
 }

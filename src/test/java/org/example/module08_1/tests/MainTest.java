@@ -1,6 +1,7 @@
 package org.example.module08_1.tests;
 
 import org.example.module08_1.drivers.DriverManager;
+import org.example.module08_1.model.Email;
 import org.example.module08_1.model.User;
 import org.example.module08_1.pages.DraftsPage;
 import org.example.module08_1.pages.LoginPage;
@@ -22,20 +23,22 @@ public class MainTest {
     private DraftsPage draftsPage;
     private SentPage sentPage;
     private User user;
+    private Email email;
     List<String> listOfLetter;
 
     @BeforeMethod
     public void setUp() {
         DriverManager.initializeDriver();
         user = new User();
+        email = new Email();
         loginPage = new LoginPage(user);
-        mainPage = new MainPage();
+        mainPage = new MainPage(email);
         draftsPage = new DraftsPage();
         sentPage = new SentPage();
         listOfLetter = new ArrayList<>();
-        listOfLetter.add("zecqeem@gmail.com");
-        listOfLetter.add("test");
-        listOfLetter.add("test");
+        listOfLetter.add(email.getDestinationEmail());
+        listOfLetter.add(email.getSubject());
+        listOfLetter.add(email.getBody());
     }
 
     @AfterMethod
@@ -55,7 +58,7 @@ public class MainTest {
         createDraft();
 
         draftsPage.openDraftsFolder();
-        assertEquals(draftsPage.getLastDraftTheme(), "test", "Draft theme doesn't match");
+        assertEquals(draftsPage.getLastDraftSubject(), email.getSubject(), "Draft theme doesn't match");
 
         draftsPage.pressLastDraft();
         assertEquals(draftsPage.getLetterData(), listOfLetter, "Draft content is incorrect");
@@ -72,7 +75,7 @@ public class MainTest {
         draftsPage.checkIfEmailWasSent();
 
         sentPage.openSentFolder();
-        assertEquals(sentPage.checkLastEmail(), "test", "Email is not found in Sent folder");
+        assertEquals(sentPage.checkLastEmail(), email.getSubject(), "Email is not found in Sent folder");
     }
 
     private void logIn() {
@@ -85,7 +88,7 @@ public class MainTest {
     private void createDraft() {
         mainPage.createANewMessage();
         mainPage.writeDestination();
-        mainPage.writeTheme();
+        mainPage.writeSubject();
         mainPage.writeBody();
         mainPage.closeAndSave();
     }

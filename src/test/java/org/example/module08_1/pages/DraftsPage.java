@@ -15,13 +15,13 @@ public class DraftsPage extends AbstractPage{
     @FindBy(xpath = "//span[contains(@class, 'composer-addresses-fakefield-inner')]")
     private WebElement destinationFieldInDrafts;
     @FindBy(xpath = "//span[@title = 'test']")
-    private WebElement themeCheck;
+    private WebElement subjectCheck;
     @FindBy(xpath = "//button[@data-testid='composer:send-button']")
     private WebElement sendButton;
     @FindBy(xpath = "//span[@class = 'notification__content']")
     private WebElement notificationSending;
     @FindBy(css = "input[data-testid='composer:subject']")
-    private WebElement themeField;
+    private WebElement subjectField;
     @FindBy(xpath = "//iframe[@data-testid='rooster-iframe']")
     private WebElement bodyFrame;
     @FindBy(xpath = "//div[@class = 'protonmail_signature_block-proton']")
@@ -31,19 +31,19 @@ public class DraftsPage extends AbstractPage{
         wait.until(visibilityOf(draftsFolder)).click();
     }
 
-    public String getLastDraftTheme() {
-        return wait.until(visibilityOf(themeCheck)).getAttribute("title");
+    public String getLastDraftSubject() {
+        return wait.until(visibilityOf(subjectCheck)).getAttribute("title");
     }
 
     public void pressLastDraft() {
-        wait.until(visibilityOf(themeCheck)).click();
+        wait.until(visibilityOf(subjectCheck)).click();
     }
 
     public List<String> getLetterData() {
         List<String> listOfData = new ArrayList<>();
         wait.until(attributeToBeNotEmpty(destinationFieldInDrafts, "title"));
         listOfData.add(destinationFieldInDrafts.getAttribute("title"));
-        listOfData.add(themeField.getAttribute("value"));
+        listOfData.add(subjectField.getAttribute("value"));
         wait.until(frameToBeAvailableAndSwitchToIt(bodyFrame));
         listOfData.add(bodyField.getText());
         driver.switchTo().defaultContent();

@@ -2,12 +2,11 @@ package org.example.module08_1.Util;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.util.Arrays;
 
-public class ConfigReader {
+public class ConfigUserReader {
     private String[] arr;
 
-    public ConfigReader() {
+    public ConfigUserReader() {
         getCreds();
     }
 
