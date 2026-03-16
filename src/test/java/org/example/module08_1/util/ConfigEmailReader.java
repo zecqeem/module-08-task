@@ -1,17 +1,17 @@
-package org.example.module08_1.Util;
+package org.example.module08_1.util;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-public class ConfigUserReader {
+public class ConfigEmailReader {
     private String[] arr;
 
-    public ConfigUserReader() {
-        getCreds();
+    public ConfigEmailReader() {
+        getEmailData();
     }
 
-    private void getCreds(){
-        String csvFilePath = "src/test/resources/credentials.csv";
+    private void getEmailData(){
+        String csvFilePath = "src/test/resources/emaildata.csv";
         try(BufferedReader br = new BufferedReader(new FileReader(csvFilePath))){
             String line;
             while ((line = br.readLine()) != null){
@@ -20,18 +20,16 @@ public class ConfigUserReader {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
 
-    public String getUsername() {
+    public String getDestinationEmail(){
         return arr[0];
     }
-
-    public String getPassword() {
+    public String getSubject() {
         return arr[1];
     }
-
-    public String getExpectedEmail() {
+    public String getBody() {
         return arr[2];
     }
-
 }

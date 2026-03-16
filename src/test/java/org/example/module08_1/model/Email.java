@@ -1,6 +1,6 @@
 package org.example.module08_1.model;
 
-import org.example.module08_1.Util.ConfigEmailReader;
+import org.example.module08_1.util.ConfigEmailReader;
 
 public class Email {
 

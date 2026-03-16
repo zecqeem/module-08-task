@@ -1,6 +1,6 @@
 package org.example.module08_1.model;
 
-import org.example.module08_1.Util.ConfigUserReader;
+import org.example.module08_1.util.ConfigUserReader;
 
 public class User {
     private final String username;
