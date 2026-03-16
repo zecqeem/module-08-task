@@ -5,9 +5,6 @@ import org.example.module08_1.model.Email;
 import org.example.module08_1.model.User;
 import org.example.module08_1.pages.DraftsPage;
 import org.example.module08_1.pages.LoginPage;
-
-import static org.testng.Assert.*;
-
 import org.example.module08_1.pages.MainPage;
 import org.example.module08_1.pages.SentPage;
 import org.testng.annotations.AfterMethod;
@@ -17,6 +14,8 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.testng.Assert.*;
+
 public class MainTest {
     private LoginPage loginPage;
     private MainPage mainPage;
@@ -24,7 +23,7 @@ public class MainTest {
     private SentPage sentPage;
     private User user;
     private Email email;
-    List<String> listOfLetter;
+    private List<String> listOfLetter;
 
     @BeforeMethod
     public void setUp() {
@@ -33,7 +32,7 @@ public class MainTest {
         email = new Email();
         loginPage = new LoginPage(user);
         mainPage = new MainPage(email);
-        draftsPage = new DraftsPage();
+        draftsPage = new DraftsPage(email);
         sentPage = new SentPage();
         listOfLetter = new ArrayList<>();
         listOfLetter.add(email.getDestinationEmail());

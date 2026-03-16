@@ -7,8 +7,9 @@ public class Email {
     private final String destinationEmail;
     private final String subject;
     private final String body;
-    ConfigEmailReader reader = new ConfigEmailReader();
+
     public Email(){
+        ConfigEmailReader reader = new ConfigEmailReader();
         destinationEmail = reader.getDestinationEmail();
         subject = reader.getSubject();
         body = reader.getBody();

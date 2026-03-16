@@ -6,8 +6,9 @@ public class User {
     private final String username;
     private final String password;
     private final String expectedEmail;
-    ConfigUserReader reader = new ConfigUserReader();
+
     public User(){
+        ConfigUserReader reader = new ConfigUserReader();
         username = reader.getUsername();
         password = reader.getPassword();
         expectedEmail = reader.getExpectedEmail();
