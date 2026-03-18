@@ -1,6 +1,5 @@
 package org.example.module08_1.model;
 
-import org.example.module08_1.util.ConfigEmailReader;
 
 public class Email {
 
@@ -8,11 +7,10 @@ public class Email {
     private final String subject;
     private final String body;
 
-    public Email(){
-        ConfigEmailReader reader = new ConfigEmailReader();
-        destinationEmail = reader.getDestinationEmail();
-        subject = reader.getSubject();
-        body = reader.getBody();
+    public Email(String destinationEmail,String subject, String body){
+        this.destinationEmail = destinationEmail;
+        this.subject = subject;
+        this.body = body;
     }
 
     public String getDestinationEmail() {

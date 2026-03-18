@@ -8,7 +8,6 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
 
 public class MainPage extends AbstractPage {
-    private Email email;
     @FindBy(xpath = "//button[@data-testid='heading:userdropdown']")
     private WebElement data;
     @FindBy(xpath = "//button[@data-testid = 'sidebar:compose']")
@@ -23,41 +22,31 @@ public class MainPage extends AbstractPage {
     private WebElement bodyField;
     @FindBy(xpath = "//button[@data-testid='composer:close-button']")
     private WebElement closeButton;
-
-    public MainPage(Email email) {
-        this.email = email;
-    }
+    @FindBy(xpath = "//a[@data-testid='navigation-link:all-drafts']")
+    private WebElement draftsFolder;
 
     public String getAccountData() {
-        return wait.until(visibilityOf(data))
+        return waitForVisibility(data)
                 .getAttribute("title");
     }
 
-    public void createANewMessage() {
-        wait.until(visibilityOf(newMessageButton)).click();
-    }
-
-    public void writeDestination() {
-        wait.until(visibilityOf(destinationField))
-                .click();
-        destinationField.sendKeys(email.getDestinationEmail() + Keys.ENTER);
-    }
-
-    public void writeSubject() {
-        subjectField.click();
-        subjectField.sendKeys(email.getSubject());
-    }
-
-    public void writeBody() {
-        wait.until(frameToBeAvailableAndSwitchToIt(bodyFrame));
+    public MainPage createANewMessage(Email email) {
+        click(newMessageButton);
+        click(destinationField);
+        type(destinationField,email.getDestinationEmail() + Keys.ENTER);
+        click(subjectField);
+        type(subjectField,email.getSubject());
+        switchToFrame(bodyFrame);
         bodyField.click();
         bodyField.clear();
         bodyField.sendKeys(email.getBody());
         driver.switchTo().defaultContent();
+        click(closeButton);
+        return this;
     }
 
-    public void closeAndSave() {
-        closeButton.click();
+    public DraftsPage openDraftsFolder() {
+        click(draftsFolder);
+        return new DraftsPage();
     }
-
 }

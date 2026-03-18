@@ -7,6 +7,8 @@ import org.example.module08_1.pages.DraftsPage;
 import org.example.module08_1.pages.LoginPage;
 import org.example.module08_1.pages.MainPage;
 import org.example.module08_1.pages.SentPage;
+import org.example.module08_1.util.ConfigEmailReader;
+import org.example.module08_1.util.ConfigUserReader;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -17,10 +19,6 @@ import java.util.List;
 import static org.testng.Assert.*;
 
 public class MainTest {
-    private LoginPage loginPage;
-    private MainPage mainPage;
-    private DraftsPage draftsPage;
-    private SentPage sentPage;
     private User user;
     private Email email;
     private List<String> listOfLetter;
@@ -28,12 +26,8 @@ public class MainTest {
     @BeforeMethod
     public void setUp() {
         DriverManager.initializeDriver();
-        user = new User();
-        email = new Email();
-        loginPage = new LoginPage(user);
-        mainPage = new MainPage(email);
-        draftsPage = new DraftsPage(email);
-        sentPage = new SentPage();
+        user = ConfigUserReader.getUserData();
+        email = ConfigEmailReader.getEmailData();
         listOfLetter = new ArrayList<>();
         listOfLetter.add(email.getDestinationEmail());
         listOfLetter.add(email.getSubject());
@@ -45,51 +39,38 @@ public class MainTest {
         DriverManager.quitDriver();
     }
 
-    @Test(priority = 1)
+    @Test
     public void testSuccessfulLogin() {
-        logIn();
+        MainPage mainPage = new LoginPage()
+                .openPage()
+                .logIn(user);
         assertEquals(mainPage.getAccountData(), user.getExpectedEmail(), "Login failed or email doesn't match");
     }
 
-    @Test(priority = 2)
+    @Test
     public void testCreateAndVerifyDraft() {
-        logIn();
-        createDraft();
-
-        draftsPage.openDraftsFolder();
-        assertEquals(draftsPage.getLastDraftSubject(), email.getSubject(), "Draft theme doesn't match");
-
-        draftsPage.pressLastDraft();
+        DraftsPage draftsPage = new LoginPage()
+                .openPage()
+                .logIn(user)
+                .createANewMessage(email)
+                .openDraftsFolder();
+        assertTrue(draftsPage.isDraftWithSubjectPresent(email.getSubject()), "Draft theme doesn't match");
+        draftsPage.openDraft(email.getSubject());
         assertEquals(draftsPage.getLetterData(), listOfLetter, "Draft content is incorrect");
     }
 
-    @Test(priority = 3)
+    @Test
     public void testSendEmailFromDrafts() {
-        logIn();
-        createDraft();
-
-        draftsPage.openDraftsFolder();
-        draftsPage.pressLastDraft();
-        draftsPage.sendEmail();
-        draftsPage.checkIfEmailWasSent();
-
-        sentPage.openSentFolder();
+        DraftsPage draftsPage = new LoginPage()
+                .openPage()
+                .logIn(user)
+                .createANewMessage(email)
+                .openDraftsFolder()
+                .openDraft(email.getSubject())
+                .sendEmail();
+        assertTrue(draftsPage.isEmailSentNotificationDisplayed(), "Draft was not send");
+        SentPage sentPage = draftsPage.openSentFolder();
         assertEquals(sentPage.checkLastEmail(), email.getSubject(), "Email is not found in Sent folder");
-    }
-
-    private void logIn() {
-        loginPage.openPage();
-        loginPage.writeUsername();
-        loginPage.writePassword();
-        loginPage.pressLoginButton();
-    }
-
-    private void createDraft() {
-        mainPage.createANewMessage();
-        mainPage.writeDestination();
-        mainPage.writeSubject();
-        mainPage.writeBody();
-        mainPage.closeAndSave();
     }
 }
 

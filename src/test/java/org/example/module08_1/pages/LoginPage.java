@@ -3,11 +3,9 @@ package org.example.module08_1.pages;
 import org.example.module08_1.model.User;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
 public class LoginPage extends AbstractPage {
     private static final String URL = "https://account.proton.me/mail";
-    User user;
     @FindBy(id = "username")
     private WebElement usernameInput;
     @FindBy(css = "#password")
@@ -15,24 +13,14 @@ public class LoginPage extends AbstractPage {
     @FindBy(xpath = "//button[@type='submit']")
     private WebElement submitButton;
 
-    public LoginPage(User user) {
-        this.user = user;
-    }
-
-    public void openPage() {
+    public LoginPage openPage() {
         driver.get(URL);
+        return this;
     }
-
-    public void writeUsername() {
-        wait.until(visibilityOf(usernameInput)).sendKeys(user.getUsername());
+    public MainPage logIn(User user){
+        type(usernameInput,user.getUsername());
+        type(passwordInput,user.getPassword());
+        click(submitButton);
+        return new MainPage();
     }
-
-    public void writePassword() {
-        wait.until(visibilityOf(passwordInput)).sendKeys(user.getPassword());
-    }
-
-    public void pressLoginButton() {
-        submitButton.click();
-    }
-
 }
