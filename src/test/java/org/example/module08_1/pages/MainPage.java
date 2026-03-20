@@ -1,8 +1,10 @@
 package org.example.module08_1.pages;
 
 import org.example.module08_1.model.Email;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
@@ -18,7 +20,7 @@ public class MainPage extends AbstractPage {
     private WebElement subjectField;
     @FindBy(xpath = "//iframe[@data-testid='rooster-iframe']")
     private WebElement bodyFrame;
-    @FindBy(xpath = "//div[@class = 'protonmail_signature_block-proton']")
+    @FindBy(id = "rooster-editor")
     private WebElement bodyField;
     @FindBy(xpath = "//button[@data-testid='composer:close-button']")
     private WebElement closeButton;
@@ -26,11 +28,13 @@ public class MainPage extends AbstractPage {
     private WebElement draftsFolder;
 
     public String getAccountData() {
-        return waitForVisibility(data)
-                .getAttribute("title");
+        log.info("Verifying logging in");
+        waitForTitleAttribute(data);
+        return data.getAttribute("title");
     }
 
     public MainPage createANewMessage(Email email) {
+        log.info("Creating a new message");
         click(newMessageButton);
         click(destinationField);
         type(destinationField,email.getDestinationEmail() + Keys.ENTER);
@@ -38,14 +42,14 @@ public class MainPage extends AbstractPage {
         type(subjectField,email.getSubject());
         switchToFrame(bodyFrame);
         bodyField.click();
-        bodyField.clear();
-        bodyField.sendKeys(email.getBody());
+        clearAndTypeContentEditableJS(bodyField, email.getBody());
         driver.switchTo().defaultContent();
         click(closeButton);
         return this;
     }
 
     public DraftsPage openDraftsFolder() {
+        log.info("Opening drafts page");
         click(draftsFolder);
         return new DraftsPage();
     }

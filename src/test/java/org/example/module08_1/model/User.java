@@ -6,7 +6,6 @@ public class User {
     private final String expectedEmail;
 
     public User(String username, String password,String expectedEmail){
-
         this.username = username;
         this.password = password;
         this.expectedEmail = expectedEmail;

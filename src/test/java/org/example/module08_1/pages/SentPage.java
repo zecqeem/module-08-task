@@ -8,6 +8,7 @@ public class SentPage extends AbstractPage{
     private WebElement lastEmailSubject;
 
     public String checkLastEmail() {
+        log.info("Checking if email was sent and has correct data");
         return waitForVisibility(lastEmailSubject).getAttribute("title");
     }
 }

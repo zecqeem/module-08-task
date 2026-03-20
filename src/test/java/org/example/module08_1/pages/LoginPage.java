@@ -14,10 +14,12 @@ public class LoginPage extends AbstractPage {
     private WebElement submitButton;
 
     public LoginPage openPage() {
+        log.info("Opening login page");
         driver.get(URL);
         return this;
     }
     public MainPage logIn(User user){
+        log.info("Logging in with login: {}", user.getUsername());
         type(usernameInput,user.getUsername());
         type(passwordInput,user.getPassword());
         click(submitButton);

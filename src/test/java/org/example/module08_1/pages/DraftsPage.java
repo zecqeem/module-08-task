@@ -2,6 +2,7 @@ package org.example.module08_1.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.ArrayList;
@@ -21,7 +22,7 @@ public class DraftsPage extends AbstractPage {
     private WebElement subjectField;
     @FindBy(xpath = "//iframe[@data-testid='rooster-iframe']")
     private WebElement bodyFrame;
-    @FindBy(xpath = "//div[@class = 'protonmail_signature_block-proton']")
+    @FindBy(id = "rooster-editor")
     private WebElement bodyField;
     @FindBy(xpath = "//a[@data-testid='navigation-link:all-sent']")
     private WebElement sentFolder;
@@ -31,6 +32,7 @@ public class DraftsPage extends AbstractPage {
     }
 
     public boolean isDraftWithSubjectPresent(String subject) {
+        log.info("Verifying drafts presence");
         try {
             waitForElementLocated(subjectCheckLocator(subject));
             return true;
@@ -39,13 +41,15 @@ public class DraftsPage extends AbstractPage {
         }
     }
     public DraftsPage openDraft(String subject) {
+        log.info("Opening latest draft");
         waitForElementLocated(subjectCheckLocator(subject)).click();
         return this;
     }
 
     public List<String> getLetterData() {
+        log.info("Gathering draft letter data");
         List<String> listOfData = new ArrayList<>();
-        wait.until(attributeToBeNotEmpty(destinationFieldInDrafts, "title"));
+        waitForTitleAttribute(destinationFieldInDrafts);
         listOfData.add(destinationFieldInDrafts.getAttribute("title"));
         listOfData.add(subjectField.getAttribute("value"));
         switchToFrame(bodyFrame);
@@ -55,11 +59,17 @@ public class DraftsPage extends AbstractPage {
     }
 
     public DraftsPage sendEmail() {
-        click(sendButton);
+        log.info("Sending email");
+        wait.until(elementToBeClickable(sendButton));
+        new Actions(driver)
+                .moveToElement(sendButton)
+                .click()
+                .perform();
         return this;
     }
 
     public boolean isEmailSentNotificationDisplayed() {
+        log.info("Waiting for email to be send");
         try {
             wait.until(textToBePresentInElement(notificationSending, SENT_NOTIFICATION));
             return true;
@@ -68,6 +78,7 @@ public class DraftsPage extends AbstractPage {
         }
     }
     public SentPage openSentFolder() {
+        log.info("Opening drafts page");
         click(sentFolder);
         return new SentPage();
     }

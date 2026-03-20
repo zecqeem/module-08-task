@@ -1,5 +1,7 @@
 package org.example.module08_1.tests;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.module08_1.drivers.DriverManager;
 import org.example.module08_1.model.Email;
 import org.example.module08_1.model.User;
@@ -9,15 +11,17 @@ import org.example.module08_1.pages.MainPage;
 import org.example.module08_1.pages.SentPage;
 import org.example.module08_1.util.ConfigEmailReader;
 import org.example.module08_1.util.ConfigUserReader;
+import org.example.module08_1.util.TestListener;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.testng.Assert.*;
-
+@Listeners(TestListener.class)
 public class MainTest {
     private User user;
     private Email email;
@@ -25,7 +29,8 @@ public class MainTest {
 
     @BeforeMethod
     public void setUp() {
-        DriverManager.initializeDriver();
+        String browser = System.getProperty("browser", "chrome");
+        DriverManager.initializeDriver(browser);
         user = ConfigUserReader.getUserData();
         email = ConfigEmailReader.getEmailData();
         listOfLetter = new ArrayList<>();
@@ -40,7 +45,7 @@ public class MainTest {
     }
 
     @Test
-    public void testSuccessfulLogin() {
+    public void testSuccessfulLogin(){
         MainPage mainPage = new LoginPage()
                 .openPage()
                 .logIn(user);
