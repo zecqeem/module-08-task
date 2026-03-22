@@ -42,7 +42,7 @@ public class MainPage extends AbstractPage {
         type(subjectField,email.getSubject());
         switchToFrame(bodyFrame);
         bodyField.click();
-        clearAndTypeContentEditableJS(bodyField, email.getBody());
+        jsUtils.clearAndTypeContentEditableJS(bodyField, email.getBody());
         driver.switchTo().defaultContent();
         click(closeButton);
         return this;

@@ -211,3 +211,99 @@
 04:26:03.173 [TestNG-test-All Tests-3] ERROR org.example.module08_1.util.TestListener - Test failure: testSendEmailFromDrafts
 04:26:03.396 [TestNG-test-All Tests-3] INFO  org.example.module08_1.util.TestListener - Screenshot saved: /Users/zecqeem/IdeaProjects/module08_1/src/test/resources/screenshots/testSendEmailFromDrafts_2026-03-22_04-26-03.png
 04:26:03.400 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+16:19:12.449 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: browser
+16:19:12.449 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: browser
+16:19:12.449 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: browser
+16:19:12.450 [TestNG-test-All Tests-1] WARN  org.example.module08_1.drivers.DriverFactory - Factory for browser 'browser' not found (org.example.module08_1.drivers.BrowserDriverFactory). Using chrome.
+16:19:12.450 [TestNG-test-All Tests-2] WARN  org.example.module08_1.drivers.DriverFactory - Factory for browser 'browser' not found (org.example.module08_1.drivers.BrowserDriverFactory). Using chrome.
+16:19:12.450 [TestNG-test-All Tests-3] WARN  org.example.module08_1.drivers.DriverFactory - Factory for browser 'browser' not found (org.example.module08_1.drivers.BrowserDriverFactory). Using chrome.
+16:19:17.442 [TestNG-test-All Tests-3] INFO  org.example.module08_1.util.TestListener - Starting test: testSendEmailFromDrafts
+16:19:17.442 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.TestListener - Starting test: testCreateAndVerifyDraft
+16:19:17.442 [TestNG-test-All Tests-1] INFO  org.example.module08_1.util.TestListener - Starting test: testSuccessfulLogin
+16:19:17.449 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+16:19:17.449 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+16:19:17.449 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+16:19:18.190 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+16:19:18.190 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+16:19:18.271 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+16:19:18.973 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+16:19:19.098 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+16:19:20.176 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
+16:19:26.931 [TestNG-test-All Tests-1] INFO  org.example.module08_1.util.TestListener - Test passed: testSuccessfulLogin
+16:19:26.932 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+16:19:28.304 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+16:19:28.498 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+16:19:29.215 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+16:19:29.382 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
+16:19:29.456 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.TestListener - Test passed: testCreateAndVerifyDraft
+16:19:29.457 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+16:19:29.820 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+16:19:29.969 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+16:19:31.273 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Sending email
+16:19:31.494 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
+16:19:33.099 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+16:19:33.253 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
+16:19:34.325 [TestNG-test-All Tests-3] INFO  org.example.module08_1.util.TestListener - Test passed: testSendEmailFromDrafts
+16:19:34.326 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+16:20:13.631 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: EDGE
+16:20:13.631 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: EDGE
+16:20:13.631 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: EDGE
+16:20:24.315 [TestNG-test-All Tests-1] INFO  org.example.module08_1.util.TestListener - Starting test: testSuccessfulLogin
+16:20:24.315 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.TestListener - Starting test: testCreateAndVerifyDraft
+16:20:24.315 [TestNG-test-All Tests-3] INFO  org.example.module08_1.util.TestListener - Starting test: testSendEmailFromDrafts
+16:20:24.321 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+16:20:24.321 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+16:20:24.321 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+16:20:25.195 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+16:20:25.265 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+16:20:25.303 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+16:20:26.224 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
+16:20:26.295 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+16:20:26.537 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+16:20:32.852 [TestNG-test-All Tests-1] INFO  org.example.module08_1.util.TestListener - Test passed: testSuccessfulLogin
+16:20:32.852 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+16:20:34.888 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+16:20:35.055 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+16:20:35.749 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+16:20:35.903 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
+16:20:35.972 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.TestListener - Test passed: testCreateAndVerifyDraft
+16:20:35.972 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+16:20:37.587 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+16:20:37.743 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+16:20:38.481 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Sending email
+16:20:38.671 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
+16:20:39.855 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+16:20:40.011 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
+16:20:40.598 [TestNG-test-All Tests-3] INFO  org.example.module08_1.util.TestListener - Test passed: testSendEmailFromDrafts
+16:20:40.599 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+16:20:52.205 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: FIREFOX
+16:20:52.205 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: FIREFOX
+16:20:52.205 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: FIREFOX
+16:20:55.071 [TestNG-test-All Tests-3] INFO  org.example.module08_1.util.TestListener - Starting test: testSendEmailFromDrafts
+16:20:55.093 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+16:20:55.604 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.TestListener - Starting test: testCreateAndVerifyDraft
+16:20:55.604 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+16:20:56.104 [TestNG-test-All Tests-1] INFO  org.example.module08_1.util.TestListener - Starting test: testSuccessfulLogin
+16:20:56.105 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+16:20:56.262 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+16:20:56.459 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+16:20:56.888 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+16:20:57.043 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+16:20:58.346 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+16:20:58.503 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
+16:21:06.894 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+16:21:07.033 [TestNG-test-All Tests-1] INFO  org.example.module08_1.util.TestListener - Test passed: testSuccessfulLogin
+16:21:07.035 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+16:21:07.296 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+16:21:08.207 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Sending email
+16:21:08.530 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+16:21:08.769 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+16:21:08.958 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
+16:21:09.293 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+16:21:09.626 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
+16:21:10.163 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.TestListener - Test passed: testCreateAndVerifyDraft
+16:21:10.164 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+16:21:12.615 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+16:21:12.821 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
+16:21:13.344 [TestNG-test-All Tests-3] INFO  org.example.module08_1.util.TestListener - Test passed: testSendEmailFromDrafts
+16:21:13.344 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
