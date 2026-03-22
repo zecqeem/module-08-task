@@ -1,7 +1,4 @@
 package org.example.module08_1.tests;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.example.module08_1.drivers.DriverManager;
 import org.example.module08_1.model.Email;
 import org.example.module08_1.model.User;
@@ -16,16 +13,12 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
-import java.util.ArrayList;
 import java.util.List;
-
 import static org.testng.Assert.*;
 @Listeners(TestListener.class)
 public class MainTest {
     private User user;
     private Email email;
-    private List<String> listOfLetter;
 
     @BeforeMethod
     public void setUp() {
@@ -33,10 +26,6 @@ public class MainTest {
         DriverManager.initializeDriver(browser);
         user = ConfigUserReader.getUserData();
         email = ConfigEmailReader.getEmailData();
-        listOfLetter = new ArrayList<>();
-        listOfLetter.add(email.getDestinationEmail());
-        listOfLetter.add(email.getSubject());
-        listOfLetter.add(email.getBody());
     }
 
     @AfterMethod
@@ -61,7 +50,13 @@ public class MainTest {
                 .openDraftsFolder();
         assertTrue(draftsPage.isDraftWithSubjectPresent(email.getSubject()), "Draft theme doesn't match");
         draftsPage.openDraft(email.getSubject());
-        assertEquals(draftsPage.getLetterData(), listOfLetter, "Draft content is incorrect");
+
+        List<String> expectedLetterData = List.of(
+                email.getDestinationEmail(),
+                email.getSubject(),
+                email.getBody()
+        );
+        assertEquals(draftsPage.getLetterData(), expectedLetterData, "Draft content is incorrect");
     }
 
     @Test

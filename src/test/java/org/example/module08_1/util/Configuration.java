@@ -5,9 +5,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class Configuration {
-    private static final Properties properties = new Properties();
-
-    static {
+    private final Properties properties;
+    private static Configuration instance;
+    private Configuration(){
+        properties = new Properties();
         String env = System.getProperty("env", "dev");
         String path = "src/test/resources/" + env + ".properties";
 
@@ -17,8 +18,14 @@ public class Configuration {
             throw new RuntimeException("Cannot load config: " + env, e);
         }
     }
+    public static synchronized Configuration getInstance(){
+        if (instance == null) {
+            instance = new Configuration();
+        }
+        return instance;
+    }
 
-    public static String get(String key) {
+    public String get(String key) {
         String value = properties.getProperty(key);
         if (value == null) {
             throw new RuntimeException("Key: " + key + " not found");

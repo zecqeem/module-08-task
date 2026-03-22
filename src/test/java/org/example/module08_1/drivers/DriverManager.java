@@ -2,7 +2,9 @@ package org.example.module08_1.drivers;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.example.module08_1.util.HighlightListener;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.events.EventFiringDecorator;
 
 public class DriverManager {
     private static final ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
@@ -18,10 +20,19 @@ public class DriverManager {
 
     public static void initializeDriver(String browser) {
         log.info("Initializing browser: {}", browser);
+
         InterfaceDriverFactory factory = DriverFactory.getFactory(browser);
         WebDriver driver = factory.createDriver();
-        driver.manage().window().maximize();
-        driverThreadLocal.set(driver);
+
+        WebDriver decoratedDriver = decorateDriver(driver);
+
+        decoratedDriver.manage().window().maximize();
+        driverThreadLocal.set(decoratedDriver);
+    }
+
+    private static WebDriver decorateDriver(WebDriver driver){
+        HighlightListener highlightListener = new HighlightListener(driver);
+        return new EventFiringDecorator<>(highlightListener).decorate(driver);
     }
 
     public static void quitDriver() {
