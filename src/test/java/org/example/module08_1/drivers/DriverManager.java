@@ -42,5 +42,6 @@ public class DriverManager {
             driver.quit();
         }
         driverThreadLocal.remove();
+        log.debug("Browser process successfully killed.");
     }
 }

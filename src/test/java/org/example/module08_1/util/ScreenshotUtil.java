@@ -1,5 +1,7 @@
 package org.example.module08_1.util;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.module08_1.drivers.DriverManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -15,6 +17,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class ScreenshotUtil {
+    private static final Logger log = LogManager.getLogger(ScreenshotUtil.class);
     private static final String FOLDER_PATH = Configuration.getInstance().get("screenshot.path");
     public static String takeScreenshot(String testName){
         File tempFile = getScreenshot();
@@ -22,6 +25,7 @@ public class ScreenshotUtil {
         return saveScreenshot(tempFile,targetPath);
     }
     private static File getScreenshot(){
+        log.debug("Taking Screenshot for the repository");
         WebDriver driver = DriverManager.getDriver();
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
     }
@@ -34,6 +38,7 @@ public class ScreenshotUtil {
         return LocalDateTime.now().format(formatter);
     }
     private static String saveScreenshot(File tempFile,Path targetPath){
+        log.debug("Saving Screenshot for the repository");
         try {
             Files.createDirectories(targetPath.getParent());
             Files.copy(tempFile.toPath(), targetPath, StandardCopyOption.REPLACE_EXISTING);

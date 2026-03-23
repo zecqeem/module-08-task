@@ -8,11 +8,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverListener;
 
 public class HighlightListener implements WebDriverListener {
+    private static final Logger log = LogManager.getLogger(JavaScriptUtils.class);
     private WebDriver driver;
     public HighlightListener(WebDriver driver) {
         this.driver = driver;
     }
     private void highlightElement(WebElement element){
+        log.debug("Highlighting element");
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript(
                 "arguments[0].setAttribute('style', 'border: 3px solid red; background: blue;');",

@@ -6,13 +6,16 @@ import org.example.module08_1.pages.DraftsPage;
 import org.example.module08_1.pages.LoginPage;
 import org.example.module08_1.pages.MainPage;
 import org.example.module08_1.pages.SentPage;
+import org.example.module08_1.util.AllureScreenshot;
 import org.example.module08_1.util.ConfigEmailReader;
 import org.example.module08_1.util.ConfigUserReader;
 import org.example.module08_1.util.TestListener;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
 import java.util.List;
 import static org.testng.Assert.*;
 @Listeners(TestListener.class)
@@ -29,7 +32,10 @@ public class MainTest {
     }
 
     @AfterMethod
-    public void shutDown() {
+    public void shutDown(ITestResult result) {
+        if (result.getStatus() == ITestResult.FAILURE) {
+            AllureScreenshot.saveScreenshotToAllure();
+        }
         DriverManager.quitDriver();
     }
 
