@@ -5,10 +5,11 @@ import org.example.module08_1.model.Email;
 public class ConfigEmailReader {
 
     public static Email getEmailData(){
+        Configuration configuration = Configuration.getInstance();
         return new Email(
-                Configuration.get("email.destination"),
-                Configuration.get("email.subject"),
-                Configuration.get("email.body")
+                configuration.get("email.destination"),
+                configuration.get("email.subject"),
+                configuration.get("email.body")
         );
     }
 }
