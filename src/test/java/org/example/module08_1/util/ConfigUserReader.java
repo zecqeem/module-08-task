@@ -1,7 +1,5 @@
 package org.example.module08_1.util;
-
 import org.example.module08_1.model.User;
-
 
 public class ConfigUserReader {
 

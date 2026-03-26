@@ -18,6 +18,7 @@ public class LoginPage extends AbstractPage {
         driver.get(URL);
         return this;
     }
+
     public MainPage logIn(User user){
         log.info("Logging in with login: {}", user.getUsername());
         type(usernameInput,user.getUsername());

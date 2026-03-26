@@ -1,400 +1,510 @@
-14:57:33.379 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-14:57:33.379 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-14:57:33.379 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-14:57:36.290 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Configuration file 'dev' successfully loaded
-14:57:36.291 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
-14:57:36.291 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
-14:57:36.291 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
-14:57:36.291 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
-14:57:36.291 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
-14:57:36.291 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
-14:57:36.292 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
-14:57:36.292 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
-14:57:36.292 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
-14:57:36.292 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
-14:57:36.292 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
-14:57:36.292 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
-14:57:36.293 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
-14:57:36.293 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
-14:57:36.293 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
-14:57:36.293 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
-14:57:36.293 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
-14:57:36.293 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
-14:57:36.325 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.TestListener - Starting test: testCreateAndVerifyDraft
-14:57:36.325 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Starting test: testSendEmailFromDrafts
-14:57:36.325 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Starting test: testSuccessfulLogin
-14:57:36.334 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: configuration.duration
-14:57:36.341 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-14:57:36.341 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-14:57:36.341 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-14:57:36.771 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-14:57:37.480 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-14:57:37.488 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
-14:57:37.495 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
-14:57:38.097 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-14:57:38.112 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
-14:57:38.119 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
-14:57:38.121 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
-14:57:38.123 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
-14:57:38.583 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:38.647 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> css selector: #password]}
-14:57:38.650 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> css selector: #password]}
-14:57:38.672 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:38.702 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> xpath: //button[@type='submit']]}
-14:57:38.705 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> xpath: //button[@type='submit']]}
-14:57:38.715 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:38.740 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-14:57:38.747 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
-14:57:38.750 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
-14:57:40.221 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:40.298 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (69d716b8648ce667e3a6a3123129ce92)] -> css selector: #password]}
-14:57:40.301 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (69d716b8648ce667e3a6a3123129ce92)] -> css selector: #password]}
-14:57:40.322 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:40.351 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (69d716b8648ce667e3a6a3123129ce92)] -> xpath: //button[@type='submit']]}
-14:57:40.355 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (69d716b8648ce667e3a6a3123129ce92)] -> xpath: //button[@type='submit']]}
-14:57:40.365 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:40.898 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-14:57:40.903 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
-14:57:40.907 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
-14:57:41.733 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:41.806 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (f4fef6cb9e23d414fdeeef69df1d16d5)] -> css selector: #password]}
-14:57:41.811 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (f4fef6cb9e23d414fdeeef69df1d16d5)] -> css selector: #password]}
-14:57:41.847 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:41.895 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (f4fef6cb9e23d414fdeeef69df1d16d5)] -> xpath: //button[@type='submit']]}
-14:57:41.899 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (f4fef6cb9e23d414fdeeef69df1d16d5)] -> xpath: //button[@type='submit']]}
-14:57:41.913 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:42.181 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
-14:57:42.190 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for 'title' attribute to be populated for element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid='heading:userdropdown']'
-14:57:50.839 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:50.955 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.cssSelector: input[data-testid='composer:to']'
-14:57:50.959 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> css selector: input[data-testid='composer:to']]}
-14:57:50.974 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:51.055 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> css selector: input[data-testid='composer:to']]}
-14:57:51.066 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> css selector: input[data-testid='composer:to']]}
-14:57:51.107 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:51.183 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> css selector: input[data-testid='composer:subject']]}
-14:57:51.187 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> css selector: input[data-testid='composer:subject']]}
-14:57:51.201 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:51.235 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> css selector: input[data-testid='composer:subject']]}
-14:57:51.237 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> css selector: input[data-testid='composer:subject']]}
-14:57:51.269 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:51.289 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
-14:57:51.321 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:51.375 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Clear input and type into it using JS
-14:57:51.536 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> xpath: //button[@data-testid='composer:close-button']]}
-14:57:51.539 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> xpath: //button[@data-testid='composer:close-button']]}
-14:57:51.553 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:51.766 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-14:57:51.776 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
-14:57:51.786 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
-14:57:51.805 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:51.920 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-14:57:51.921 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
-14:57:54.673 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:57:54.878 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Sending email
-14:57:57.241 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
-14:58:00.419 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-14:58:00.427 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> xpath: //a[@data-testid='navigation-link:all-sent']]}
-14:58:00.430 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> xpath: //a[@data-testid='navigation-link:all-sent']]}
-14:58:00.446 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-14:58:00.633 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
-14:58:00.749 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (3df4af09cf43c89c8e8fabcb21a44d59)] -> xpath: //span[@data-testid='message-row:subject']]}
-14:58:01.286 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Test passed: testSendEmailFromDrafts
-14:58:01.288 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-14:58:05.934 [TestNG-test-All Tests-2] ERROR org.example.module08_1.util.TestListener - Test failure: testCreateAndVerifyDraft
-14:58:05.935 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: screenshot.path
-14:58:05.935 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.ScreenshotUtil - Taking Screenshot for the repository
-14:58:06.062 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.ScreenshotUtil - Saving Screenshot for the repository
-14:58:06.063 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.TestListener - Screenshot saved locally: /Users/zecqeem/IdeaProjects/module08_1/src/test/resources/screenshots/testCreateAndVerifyDraft_2026-03-23_14-58-06.png
-14:58:06.152 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.AllureScreenshot - Screenshot attached to Allure Report
-14:58:06.152 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-14:58:06.237 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
-14:58:07.254 [TestNG-test-All Tests-1] ERROR org.example.module08_1.util.TestListener - Test failure: testSuccessfulLogin
-14:58:07.255 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.ScreenshotUtil - Taking Screenshot for the repository
-14:58:07.395 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.ScreenshotUtil - Saving Screenshot for the repository
-14:58:07.395 [TestNG-test-All Tests-1] INFO  org.example.module08_1.util.TestListener - Screenshot saved locally: /Users/zecqeem/IdeaProjects/module08_1/src/test/resources/screenshots/testSuccessfulLogin_2026-03-23_14-58-07.png
-14:58:07.520 [TestNG-test-All Tests-1] INFO  org.example.module08_1.util.AllureScreenshot - Screenshot attached to Allure Report
-14:58:07.520 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-14:58:07.611 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
-14:58:21.397 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
-15:15:18.628 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-15:15:18.628 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-15:15:18.628 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-15:15:21.647 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Configuration file 'dev' successfully loaded
-15:15:21.647 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
-15:15:21.647 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
-15:15:21.647 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
-15:15:21.647 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
-15:15:21.647 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
-15:15:21.647 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
-15:15:21.647 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
-15:15:21.647 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
-15:15:21.647 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
-15:15:21.648 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
-15:15:21.648 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
-15:15:21.648 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
-15:15:21.648 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
-15:15:21.648 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
-15:15:21.648 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
-15:15:21.648 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
-15:15:21.648 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
-15:15:21.648 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
-15:15:21.684 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.TestListener - Starting test: testCreateAndVerifyDraft
-15:15:21.684 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Starting test: testSendEmailFromDrafts
-15:15:21.684 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Starting test: testSuccessfulLogin
-15:15:21.694 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: configuration.duration
-15:15:21.700 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-15:15:21.700 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-15:15:21.700 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-15:15:22.889 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-15:15:22.898 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
-15:15:22.903 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
-15:15:23.153 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-15:15:23.160 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
-15:15:23.163 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
-15:15:23.454 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:23.529 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> css selector: #password]}
-15:15:23.533 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> css selector: #password]}
-15:15:23.552 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:23.583 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> xpath: //button[@type='submit']]}
-15:15:23.586 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> xpath: //button[@type='submit']]}
-15:15:23.595 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:24.111 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-15:15:24.116 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
-15:15:24.120 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
-15:15:24.222 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:24.300 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (67925e32fc70221c9fcd63c4c62ae0c7)] -> css selector: #password]}
-15:15:24.304 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (67925e32fc70221c9fcd63c4c62ae0c7)] -> css selector: #password]}
-15:15:24.337 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:24.369 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (67925e32fc70221c9fcd63c4c62ae0c7)] -> xpath: //button[@type='submit']]}
-15:15:24.427 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (67925e32fc70221c9fcd63c4c62ae0c7)] -> xpath: //button[@type='submit']]}
-15:15:24.479 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:24.689 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
-15:15:24.697 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for 'title' attribute to be populated for element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid='heading:userdropdown']'
-15:15:25.353 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-15:15:25.362 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
-15:15:25.367 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
-15:15:30.506 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:30.579 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> css selector: #password]}
-15:15:30.581 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> css selector: #password]}
-15:15:30.600 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:30.627 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> xpath: //button[@type='submit']]}
-15:15:30.631 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> xpath: //button[@type='submit']]}
-15:15:30.639 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:31.438 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-15:15:31.455 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
-15:15:31.460 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
-15:15:32.679 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Test passed: testSuccessfulLogin
-15:15:32.681 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-15:15:32.769 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
-15:15:46.602 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:46.715 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:46.973 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> css selector: input[data-testid='composer:to']]}
-15:15:46.984 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> css selector: input[data-testid='composer:to']]}
-15:15:47.049 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.082 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.cssSelector: input[data-testid='composer:to']'
-15:15:47.156 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> css selector: input[data-testid='composer:to']]}
-15:15:47.185 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> css selector: input[data-testid='composer:to']]}
-15:15:47.223 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.237 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> css selector: input[data-testid='composer:to']]}
-15:15:47.256 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.279 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> css selector: input[data-testid='composer:subject']]}
-15:15:47.287 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> css selector: input[data-testid='composer:subject']]}
-15:15:47.335 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.345 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> css selector: input[data-testid='composer:to']]}
-15:15:47.351 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> css selector: input[data-testid='composer:to']]}
-15:15:47.422 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> css selector: input[data-testid='composer:subject']]}
-15:15:47.430 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> css selector: input[data-testid='composer:subject']]}
-15:15:47.465 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.465 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.491 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
-15:15:47.519 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> css selector: input[data-testid='composer:subject']]}
-15:15:47.523 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> css selector: input[data-testid='composer:subject']]}
-15:15:47.532 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.534 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.565 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> css selector: input[data-testid='composer:subject']]}
-15:15:47.569 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> css selector: input[data-testid='composer:subject']]}
-15:15:47.580 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Clear input and type into it using JS
-15:15:47.598 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.622 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
-15:15:47.662 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.729 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Clear input and type into it using JS
-15:15:47.763 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> xpath: //button[@data-testid='composer:close-button']]}
-15:15:47.767 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> xpath: //button[@data-testid='composer:close-button']]}
-15:15:47.781 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.827 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-15:15:47.893 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
-15:15:47.898 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
-15:15:47.905 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> xpath: //button[@data-testid='composer:close-button']]}
-15:15:47.912 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> xpath: //button[@data-testid='composer:close-button']]}
-15:15:47.919 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.921 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:47.964 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-15:15:47.981 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
-15:15:47.986 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
-15:15:48.000 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:48.079 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-15:15:48.080 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
-15:15:48.169 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-15:15:48.170 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
-15:15:48.618 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:48.732 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-15:15:48.732 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
-15:15:48.742 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:48.777 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Sending email
-15:15:48.937 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-15:15:48.945 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for 'title' attribute to be populated for element: Decorated {[[ChromeDriver: chrome on mac (eb42e0d21201a067ce7461c042a72daf)] -> xpath: //span[contains(@class, 'composer-addresses-fakefield-inner')]]}
-15:15:49.532 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
-15:15:49.555 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.TestListener - Test passed: testCreateAndVerifyDraft
-15:15:49.555 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-15:15:49.639 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
-15:15:55.385 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-15:15:55.390 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> xpath: //a[@data-testid='navigation-link:all-sent']]}
-15:15:55.393 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> xpath: //a[@data-testid='navigation-link:all-sent']]}
-15:15:55.401 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:15:55.551 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
-15:15:55.569 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (b125f9dd5ea2e299256fc28f843512c5)] -> xpath: //span[@data-testid='message-row:subject']]}
-15:15:56.102 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Test passed: testSendEmailFromDrafts
-15:15:56.103 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-15:16:09.650 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
-15:16:16.201 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
-15:24:34.691 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-15:24:34.691 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-15:24:34.693 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-15:24:37.285 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Configuration file 'dev' successfully loaded
-15:24:37.286 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
-15:24:37.286 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
-15:24:37.286 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
-15:24:37.286 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
-15:24:37.286 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
-15:24:37.286 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
-15:24:37.286 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
-15:24:37.286 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
-15:24:37.286 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
-15:24:37.286 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
-15:24:37.287 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
-15:24:37.287 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
-15:24:37.288 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
-15:24:37.289 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
-15:24:37.289 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
-15:24:37.289 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
-15:24:37.289 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
-15:24:37.289 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
-15:24:37.316 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Starting test: testSendEmailFromDrafts
-15:24:37.316 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.TestListener - Starting test: testCreateAndVerifyDraft
-15:24:37.316 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Starting test: testSuccessfulLogin
-15:24:37.324 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: configuration.duration
-15:24:37.333 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-15:24:37.333 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-15:24:37.333 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-15:24:37.682 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-15:24:37.682 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-15:24:38.046 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-15:24:38.059 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
-15:24:38.065 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
-15:24:38.136 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
-15:24:38.144 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
-15:24:38.362 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
-15:24:38.368 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
-15:24:38.997 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:39.148 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> css selector: #password]}
-15:24:39.154 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> css selector: #password]}
-15:24:39.204 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:39.208 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:39.254 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> xpath: //button[@type='submit']]}
-15:24:39.262 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> xpath: //button[@type='submit']]}
-15:24:39.277 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:39.311 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-15:24:39.320 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
-15:24:39.326 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> css selector: #password]}
-15:24:39.328 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
-15:24:39.330 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> css selector: #password]}
-15:24:39.361 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:39.395 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> xpath: //button[@type='submit']]}
-15:24:39.398 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> xpath: //button[@type='submit']]}
-15:24:39.412 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:39.446 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-15:24:39.451 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
-15:24:39.458 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
-15:24:39.677 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:39.778 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (55c4b1e166e4d44991a46774cec365df)] -> css selector: #password]}
-15:24:39.795 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (55c4b1e166e4d44991a46774cec365df)] -> css selector: #password]}
-15:24:39.844 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:40.164 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (55c4b1e166e4d44991a46774cec365df)] -> xpath: //button[@type='submit']]}
-15:24:40.168 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (55c4b1e166e4d44991a46774cec365df)] -> xpath: //button[@type='submit']]}
-15:24:40.180 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:40.213 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
-15:24:40.228 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for 'title' attribute to be populated for element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid='heading:userdropdown']'
-15:24:46.574 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Test passed: testSuccessfulLogin
-15:24:46.578 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-15:24:46.671 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
-15:24:48.396 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:48.766 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> css selector: input[data-testid='composer:to']]}
-15:24:48.769 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> css selector: input[data-testid='composer:to']]}
-15:24:48.805 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:48.889 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> css selector: input[data-testid='composer:to']]}
-15:24:48.893 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> css selector: input[data-testid='composer:to']]}
-15:24:48.918 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:48.976 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> css selector: input[data-testid='composer:subject']]}
-15:24:48.979 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> css selector: input[data-testid='composer:subject']]}
-15:24:48.988 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:49.026 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> css selector: input[data-testid='composer:subject']]}
-15:24:49.029 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> css selector: input[data-testid='composer:subject']]}
-15:24:49.057 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:49.078 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
-15:24:49.115 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:49.168 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Clear input and type into it using JS
-15:24:49.343 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> xpath: //button[@data-testid='composer:close-button']]}
-15:24:49.346 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> xpath: //button[@data-testid='composer:close-button']]}
-15:24:49.356 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:49.395 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-15:24:49.417 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
-15:24:49.431 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (164a4d3fe538eb458498c42d64f54df3)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
-15:24:49.444 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:49.694 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-15:24:49.694 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
-15:24:50.406 [TestNG-test-All Tests-2] ERROR org.example.module08_1.util.TestListener - Test failure: testCreateAndVerifyDraft
-15:24:50.409 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: screenshot.path
-15:24:50.410 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.ScreenshotUtil - Taking Screenshot for the repository
-15:24:50.659 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.ScreenshotUtil - Saving Screenshot for the repository
-15:24:50.698 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.TestListener - Screenshot saved locally: /Users/zecqeem/IdeaProjects/module08_1/src/test/resources/screenshots/testCreateAndVerifyDraft_2026-03-23_15-24-50.png
-15:24:51.072 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.AllureScreenshot - Screenshot attached to Allure Report
-15:24:51.072 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-15:24:51.202 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
-15:24:52.968 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:53.116 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> css selector: input[data-testid='composer:to']]}
-15:24:53.149 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> css selector: input[data-testid='composer:to']]}
-15:24:53.214 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:53.281 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> css selector: input[data-testid='composer:to']]}
-15:24:53.289 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> css selector: input[data-testid='composer:to']]}
-15:24:53.395 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:53.674 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> css selector: input[data-testid='composer:subject']]}
-15:24:53.682 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> css selector: input[data-testid='composer:subject']]}
-15:24:53.701 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:53.895 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> css selector: input[data-testid='composer:subject']]}
-15:24:53.902 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> css selector: input[data-testid='composer:subject']]}
-15:24:54.045 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:54.094 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
-15:24:54.215 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:54.400 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Clear input and type into it using JS
-15:24:54.675 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> xpath: //button[@data-testid='composer:close-button']]}
-15:24:54.682 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> xpath: //button[@data-testid='composer:close-button']]}
-15:24:54.697 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:54.780 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-15:24:54.794 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
-15:24:54.802 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
-15:24:54.831 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:55.054 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-15:24:55.059 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
-15:24:55.730 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:56.015 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Sending email
-15:24:56.454 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
-15:24:58.579 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-15:24:58.584 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> xpath: //a[@data-testid='navigation-link:all-sent']]}
-15:24:58.588 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> xpath: //a[@data-testid='navigation-link:all-sent']]}
-15:24:58.605 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Highlighting element
-15:24:58.775 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
-15:24:58.801 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (f4ceea14a647aa9cd527dda7f7b01707)] -> xpath: //span[@data-testid='message-row:subject']]}
-15:24:59.364 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Test passed: testSendEmailFromDrafts
-15:24:59.364 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-15:25:07.309 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
+14:52:44.751 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+14:52:44.751 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+14:52:44.751 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+14:52:50.323 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Configuration file 'dev' successfully loaded
+14:52:50.323 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
+14:52:50.323 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
+14:52:50.324 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
+14:52:50.324 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
+14:52:50.325 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
+14:52:50.325 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
+14:52:50.379 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Starting test: testSuccessfulLogin
+14:52:50.397 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: configuration.duration
+14:52:50.414 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+14:52:51.374 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+14:52:51.389 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:52:51.395 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:52:52.530 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:52:52.689 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (e6207ae183e29b85dde981c520eaafd8)] -> css selector: #password]}
+14:52:52.698 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (e6207ae183e29b85dde981c520eaafd8)] -> css selector: #password]}
+14:52:52.757 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:52:52.829 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (e6207ae183e29b85dde981c520eaafd8)] -> xpath: //button[@type='submit']]}
+14:52:52.837 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (e6207ae183e29b85dde981c520eaafd8)] -> xpath: //button[@type='submit']]}
+14:52:52.867 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:52:52.936 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
+14:52:52.950 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for 'title' attribute to be populated for element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid='heading:userdropdown']'
+14:52:56.635 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
+14:52:56.636 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
+14:52:56.636 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
+14:52:56.636 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
+14:52:56.636 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
+14:52:56.636 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
+14:52:56.640 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.TestListener - Starting test: testCreateAndVerifyDraft
+14:52:56.650 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+14:52:57.769 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+14:52:57.786 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:52:57.801 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:52:58.596 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:53:00.037 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
+14:53:00.038 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
+14:53:00.038 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
+14:53:00.039 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
+14:53:00.039 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
+14:53:00.039 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
+14:53:00.044 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Starting test: testSendEmailFromDrafts
+14:53:00.052 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+14:53:00.354 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+14:53:01.603 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:53:01.751 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:53:02.019 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (e754381a02249fbb709b0a94c48fbc58)] -> css selector: #password]}
+14:53:02.029 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (e754381a02249fbb709b0a94c48fbc58)] -> css selector: #password]}
+14:53:02.207 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:53:02.297 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (e754381a02249fbb709b0a94c48fbc58)] -> xpath: //button[@type='submit']]}
+14:53:02.307 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (e754381a02249fbb709b0a94c48fbc58)] -> xpath: //button[@type='submit']]}
+14:53:02.358 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:53:02.480 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+14:53:02.505 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:53:02.522 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:53:03.005 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:53:03.333 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (96f7dcc1f7378d0928408420a33e2c34)] -> css selector: #password]}
+14:53:03.370 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (96f7dcc1f7378d0928408420a33e2c34)] -> css selector: #password]}
+14:53:03.517 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:53:03.687 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (96f7dcc1f7378d0928408420a33e2c34)] -> xpath: //button[@type='submit']]}
+14:53:03.698 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (96f7dcc1f7378d0928408420a33e2c34)] -> xpath: //button[@type='submit']]}
+14:53:03.726 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:53:04.864 [TestNG-test-All Tests-3] ERROR org.example.module08_1.util.TestListener - Test failure: testSendEmailFromDrafts
+14:53:04.869 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: screenshot.path
+14:53:04.869 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.ScreenshotUtil - Taking Screenshot for the repository
+14:53:07.370 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.ScreenshotUtil - Saving Screenshot for the repository
+14:53:07.380 [TestNG-test-All Tests-3] INFO  org.example.module08_1.util.TestListener - Screenshot saved locally: /Users/zecqeem/IdeaProjects/module08_1/src/test/resources/screenshots/testSendEmailFromDrafts_2026-03-26_14-53-07.png
+14:53:08.171 [TestNG-test-All Tests-3] INFO  org.example.module08_1.util.AllureScreenshot - Screenshot attached to Allure Report
+14:53:08.171 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+14:53:08.390 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
+14:53:09.090 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Test passed: testSuccessfulLogin
+14:53:09.094 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+14:53:25.551 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
+14:53:27.633 [TestNG-test-All Tests-2] ERROR org.example.module08_1.util.TestListener - Test failure: testCreateAndVerifyDraft
+14:53:27.634 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.ScreenshotUtil - Taking Screenshot for the repository
+14:53:27.729 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.ScreenshotUtil - Saving Screenshot for the repository
+14:53:27.730 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.TestListener - Screenshot saved locally: /Users/zecqeem/IdeaProjects/module08_1/src/test/resources/screenshots/testCreateAndVerifyDraft_2026-03-26_14-53-27.png
+14:53:27.823 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.AllureScreenshot - Screenshot attached to Allure Report
+14:53:27.823 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+14:53:47.498 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
+14:54:13.312 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+14:54:13.312 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+14:54:13.312 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+14:54:17.470 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Configuration file 'dev' successfully loaded
+14:54:17.471 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
+14:54:17.471 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
+14:54:17.471 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
+14:54:17.471 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
+14:54:17.471 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
+14:54:17.471 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
+14:54:17.471 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
+14:54:17.471 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
+14:54:17.472 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
+14:54:17.473 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
+14:54:17.473 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
+14:54:17.473 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
+14:54:17.473 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
+14:54:17.473 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
+14:54:17.473 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
+14:54:17.473 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
+14:54:17.473 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
+14:54:17.473 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
+14:54:17.588 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Starting test: testSendEmailFromDrafts
+14:54:17.588 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Starting test: testSuccessfulLogin
+14:54:17.588 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.TestListener - Starting test: testCreateAndVerifyDraft
+14:54:17.615 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: configuration.duration
+14:54:17.631 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+14:54:17.631 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+14:54:17.631 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+14:54:18.391 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+14:54:18.413 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:54:18.426 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:54:18.475 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+14:54:18.488 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:54:18.496 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:54:19.020 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+14:54:19.035 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:54:19.044 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:54:19.048 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:19.202 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (bd899aa5ba2dde750c1fc8c0aa22cb3e)] -> css selector: #password]}
+14:54:19.209 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (bd899aa5ba2dde750c1fc8c0aa22cb3e)] -> css selector: #password]}
+14:54:19.257 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:19.311 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (bd899aa5ba2dde750c1fc8c0aa22cb3e)] -> xpath: //button[@type='submit']]}
+14:54:19.319 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (bd899aa5ba2dde750c1fc8c0aa22cb3e)] -> xpath: //button[@type='submit']]}
+14:54:19.342 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:19.734 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:19.879 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> css selector: #password]}
+14:54:19.888 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> css selector: #password]}
+14:54:19.943 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:20.010 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> xpath: //button[@type='submit']]}
+14:54:20.020 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> xpath: //button[@type='submit']]}
+14:54:20.041 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:20.097 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+14:54:20.109 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:54:20.119 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:54:20.158 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:20.299 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
+14:54:20.327 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for 'title' attribute to be populated for element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid='heading:userdropdown']'
+14:54:20.462 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> css selector: #password]}
+14:54:20.579 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> css selector: #password]}
+14:54:20.618 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:20.680 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> xpath: //button[@type='submit']]}
+14:54:20.687 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> xpath: //button[@type='submit']]}
+14:54:20.710 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:20.762 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+14:54:20.774 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:54:20.781 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:54:28.051 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:28.489 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Test passed: testSuccessfulLogin
+14:54:28.531 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+14:54:28.971 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
+14:54:29.068 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.cssSelector: input[data-testid='composer:to']'
+14:54:29.186 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.cssSelector: input[data-testid='composer:to']'
+14:54:29.564 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:29.938 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> css selector: input[data-testid='composer:to']]}
+14:54:29.972 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> css selector: input[data-testid='composer:to']]}
+14:54:30.496 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:30.813 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> css selector: input[data-testid='composer:subject']]}
+14:54:30.826 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> css selector: input[data-testid='composer:subject']]}
+14:54:30.875 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:30.970 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> css selector: input[data-testid='composer:subject']]}
+14:54:30.979 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> css selector: input[data-testid='composer:subject']]}
+14:54:31.046 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:31.096 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
+14:54:31.176 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:31.436 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Clear input and type into it using JS
+14:54:32.434 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> xpath: //button[@data-testid='composer:close-button']]}
+14:54:32.442 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> xpath: //button[@data-testid='composer:close-button']]}
+14:54:32.463 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:32.542 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+14:54:32.586 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
+14:54:32.596 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
+14:54:32.619 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:32.928 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+14:54:32.928 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
+14:54:33.641 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+14:54:33.642 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
+14:54:33.668 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:33.977 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
+14:54:34.013 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for 'title' attribute to be populated for element: Decorated {[[ChromeDriver: chrome on mac (db75400b35f0b73afb1abb5f99b399cb)] -> xpath: //span[contains(@class, 'composer-addresses-fakefield-inner')]]}
+14:54:34.207 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
+14:54:34.254 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.TestListener - Test passed: testCreateAndVerifyDraft
+14:54:34.255 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+14:54:34.351 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
+14:54:39.019 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:39.319 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.cssSelector: input[data-testid='composer:to']'
+14:54:39.328 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.cssSelector: input[data-testid='composer:to']'
+14:54:39.883 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:39.946 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> css selector: input[data-testid='composer:to']]}
+14:54:39.953 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> css selector: input[data-testid='composer:to']]}
+14:54:40.000 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:40.086 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> css selector: input[data-testid='composer:subject']]}
+14:54:40.095 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> css selector: input[data-testid='composer:subject']]}
+14:54:40.133 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:40.202 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> css selector: input[data-testid='composer:subject']]}
+14:54:40.209 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> css selector: input[data-testid='composer:subject']]}
+14:54:40.269 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:40.312 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
+14:54:40.366 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:40.527 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Clear input and type into it using JS
+14:54:41.436 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> xpath: //button[@data-testid='composer:close-button']]}
+14:54:41.442 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> xpath: //button[@data-testid='composer:close-button']]}
+14:54:41.457 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:41.532 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+14:54:41.557 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
+14:54:41.564 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
+14:54:41.591 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:41.886 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+14:54:41.886 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
+14:54:42.488 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:42.745 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Sending email
+14:54:43.578 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
+14:54:47.284 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+14:54:47.291 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> xpath: //a[@data-testid='navigation-link:all-sent']]}
+14:54:47.295 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> xpath: //a[@data-testid='navigation-link:all-sent']]}
+14:54:47.306 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:54:47.523 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
+14:54:47.617 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (36773e10324554bd88a13e8d6e2a3f28)] -> xpath: //span[@data-testid='message-row:subject']]}
+14:54:48.174 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Test passed: testSendEmailFromDrafts
+14:54:48.175 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+14:54:56.825 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
+14:55:05.256 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+14:55:05.256 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+14:55:05.256 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+14:55:08.659 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Configuration file 'dev' successfully loaded
+14:55:08.660 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
+14:55:08.660 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
+14:55:08.660 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
+14:55:08.660 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
+14:55:08.660 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
+14:55:08.660 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
+14:55:08.660 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
+14:55:08.660 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
+14:55:08.660 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
+14:55:08.661 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
+14:55:08.661 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
+14:55:08.661 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
+14:55:08.661 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
+14:55:08.661 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
+14:55:08.661 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
+14:55:08.661 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
+14:55:08.661 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
+14:55:08.661 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
+14:55:08.723 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.TestListener - Starting test: testCreateAndVerifyDraft
+14:55:08.723 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Starting test: testSuccessfulLogin
+14:55:08.723 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Starting test: testSendEmailFromDrafts
+14:55:08.745 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: configuration.duration
+14:55:08.759 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+14:55:08.759 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+14:55:08.759 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+14:55:09.684 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+14:55:09.698 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:55:09.705 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:55:09.846 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+14:55:09.855 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:55:09.861 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:55:09.962 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+14:55:09.973 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:55:09.981 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:55:10.330 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:10.487 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> css selector: #password]}
+14:55:10.494 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> css selector: #password]}
+14:55:10.553 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:10.579 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:10.613 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> xpath: //button[@type='submit']]}
+14:55:10.621 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> xpath: //button[@type='submit']]}
+14:55:10.642 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:10.750 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> css selector: #password]}
+14:55:10.757 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> css selector: #password]}
+14:55:11.049 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:11.106 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:11.110 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> xpath: //button[@type='submit']]}
+14:55:11.119 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> xpath: //button[@type='submit']]}
+14:55:11.151 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:11.221 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+14:55:11.254 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:55:11.264 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:55:11.281 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+14:55:11.306 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:55:11.316 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:55:11.319 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (4bfead8deac47f858d6804e8e38dce4a)] -> css selector: #password]}
+14:55:11.327 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (4bfead8deac47f858d6804e8e38dce4a)] -> css selector: #password]}
+14:55:11.385 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:11.456 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (4bfead8deac47f858d6804e8e38dce4a)] -> xpath: //button[@type='submit']]}
+14:55:11.464 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (4bfead8deac47f858d6804e8e38dce4a)] -> xpath: //button[@type='submit']]}
+14:55:11.493 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:11.605 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
+14:55:11.623 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for 'title' attribute to be populated for element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid='heading:userdropdown']'
+14:55:24.729 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:25.115 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.cssSelector: input[data-testid='composer:to']'
+14:55:25.151 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> css selector: input[data-testid='composer:to']]}
+14:55:25.281 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:25.589 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> css selector: input[data-testid='composer:to']]}
+14:55:25.617 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> css selector: input[data-testid='composer:to']]}
+14:55:25.816 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:26.120 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> css selector: input[data-testid='composer:subject']]}
+14:55:26.147 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> css selector: input[data-testid='composer:subject']]}
+14:55:26.279 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:26.336 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:26.487 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> css selector: input[data-testid='composer:subject']]}
+14:55:26.546 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> css selector: input[data-testid='composer:subject']]}
+14:55:26.738 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> css selector: input[data-testid='composer:to']]}
+14:55:26.788 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:26.846 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
+14:55:26.920 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> css selector: input[data-testid='composer:to']]}
+14:55:27.029 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:27.132 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:27.256 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Clear input and type into it using JS
+14:55:27.428 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> css selector: input[data-testid='composer:to']]}
+14:55:27.471 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> css selector: input[data-testid='composer:to']]}
+14:55:27.597 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:27.740 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> css selector: input[data-testid='composer:subject']]}
+14:55:27.755 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> css selector: input[data-testid='composer:subject']]}
+14:55:27.786 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:27.930 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> css selector: input[data-testid='composer:subject']]}
+14:55:27.947 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> css selector: input[data-testid='composer:subject']]}
+14:55:28.061 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:28.166 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
+14:55:28.251 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:28.372 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Test passed: testSuccessfulLogin
+14:55:28.378 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+14:55:28.390 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Clear input and type into it using JS
+14:55:28.682 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> xpath: //button[@data-testid='composer:close-button']]}
+14:55:28.691 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> xpath: //button[@data-testid='composer:close-button']]}
+14:55:28.717 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:28.819 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+14:55:28.849 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
+14:55:28.877 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
+14:55:28.907 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:29.202 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> xpath: //button[@data-testid='composer:close-button']]}
+14:55:29.215 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> xpath: //button[@data-testid='composer:close-button']]}
+14:55:29.277 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+14:55:29.279 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
+14:55:29.296 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:29.508 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+14:55:29.574 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
+14:55:29.609 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
+14:55:29.745 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:30.199 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+14:55:30.200 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
+14:55:30.297 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:30.693 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Sending email
+14:55:31.098 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+14:55:31.098 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
+14:55:31.113 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:31.454 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
+14:55:31.492 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for 'title' attribute to be populated for element: Decorated {[[ChromeDriver: chrome on mac (d41aeae2d47c0f8ac9054fd21529145f)] -> xpath: //span[contains(@class, 'composer-addresses-fakefield-inner')]]}
+14:55:31.541 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
+14:55:31.639 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
+14:55:31.691 [TestNG-test-All Tests-2] ERROR org.example.module08_1.util.TestListener - Test failure: testCreateAndVerifyDraft
+14:55:31.692 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: screenshot.path
+14:55:31.692 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.ScreenshotUtil - Taking Screenshot for the repository
+14:55:31.904 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.ScreenshotUtil - Saving Screenshot for the repository
+14:55:31.910 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.TestListener - Screenshot saved locally: /Users/zecqeem/IdeaProjects/module08_1/src/test/resources/screenshots/testCreateAndVerifyDraft_2026-03-26_14-55-31.png
+14:55:32.093 [TestNG-test-All Tests-2] INFO  org.example.module08_1.util.AllureScreenshot - Screenshot attached to Allure Report
+14:55:32.093 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+14:55:34.778 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+14:55:34.784 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> xpath: //a[@data-testid='navigation-link:all-sent']]}
+14:55:34.788 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> xpath: //a[@data-testid='navigation-link:all-sent']]}
+14:55:34.797 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:55:34.969 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
+14:55:35.041 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (954cf48823a8bfcc1f6beada8b5b76b2)] -> xpath: //span[@data-testid='message-row:subject']]}
+14:55:35.643 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Test passed: testSendEmailFromDrafts
+14:55:35.643 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+14:55:38.781 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
+14:55:38.816 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
+14:55:55.776 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
+14:56:01.643 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+14:56:01.643 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+14:56:01.643 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+14:56:06.263 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Configuration file 'dev' successfully loaded
+14:56:06.264 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
+14:56:06.264 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
+14:56:06.264 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
+14:56:06.264 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
+14:56:06.264 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
+14:56:06.265 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
+14:56:06.266 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
+14:56:06.266 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
+14:56:06.266 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
+14:56:06.266 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
+14:56:06.266 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
+14:56:06.267 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
+14:56:06.276 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.username
+14:56:06.277 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.password
+14:56:06.277 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: user.expectedEmail
+14:56:06.277 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.destination
+14:56:06.277 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.subject
+14:56:06.277 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: email.body
+14:56:06.351 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.TestListener - Starting test: testCreateAndVerifyDraft
+14:56:06.351 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Starting test: testSuccessfulLogin
+14:56:06.351 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Starting test: testSendEmailFromDrafts
+14:56:06.379 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.Configuration - Fetching property by key: configuration.duration
+14:56:06.399 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+14:56:06.399 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+14:56:06.399 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+14:56:07.373 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+14:56:07.387 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:56:07.393 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:56:07.487 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+14:56:07.496 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:56:07.503 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:56:07.521 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
+14:56:07.529 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:56:07.535 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.id: username'
+14:56:08.115 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:08.208 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (e640170e85f4116ba133733f41d35fb4)] -> css selector: #password]}
+14:56:08.212 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (e640170e85f4116ba133733f41d35fb4)] -> css selector: #password]}
+14:56:08.239 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:08.287 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (e640170e85f4116ba133733f41d35fb4)] -> xpath: //button[@type='submit']]}
+14:56:08.291 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (e640170e85f4116ba133733f41d35fb4)] -> xpath: //button[@type='submit']]}
+14:56:08.306 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:08.932 [TestNG-test-All Tests-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
+14:56:08.942 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for 'title' attribute to be populated for element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid='heading:userdropdown']'
+14:56:13.091 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:13.187 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> css selector: #password]}
+14:56:13.197 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> css selector: #password]}
+14:56:13.229 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:13.438 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> xpath: //button[@type='submit']]}
+14:56:13.442 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> xpath: //button[@type='submit']]}
+14:56:13.456 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:13.888 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:14.053 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> css selector: #password]}
+14:56:14.070 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> css selector: #password]}
+14:56:14.115 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+14:56:14.131 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:56:14.142 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:56:14.158 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:14.225 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> xpath: //button[@type='submit']]}
+14:56:14.232 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> xpath: //button[@type='submit']]}
+14:56:14.257 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:14.314 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+14:56:14.330 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:56:14.337 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-testid = 'sidebar:compose']'
+14:56:21.108 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.util.TestListener - Test passed: testSuccessfulLogin
+14:56:21.115 [TestNG-test-All Tests-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+14:56:21.282 [TestNG-test-All Tests-1] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
+14:56:27.498 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:28.007 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> css selector: input[data-testid='composer:to']]}
+14:56:28.015 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> css selector: input[data-testid='composer:to']]}
+14:56:28.062 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:28.175 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> css selector: input[data-testid='composer:to']]}
+14:56:28.188 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> css selector: input[data-testid='composer:to']]}
+14:56:28.251 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:28.373 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> css selector: input[data-testid='composer:subject']]}
+14:56:28.380 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> css selector: input[data-testid='composer:subject']]}
+14:56:28.403 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:28.609 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> css selector: input[data-testid='composer:subject']]}
+14:56:28.616 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> css selector: input[data-testid='composer:subject']]}
+14:56:28.676 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:28.745 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
+14:56:28.802 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:28.890 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:28.912 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.JavaScriptUtils - Clear input and type into it using JS
+14:56:29.077 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> css selector: input[data-testid='composer:to']]}
+14:56:29.087 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> css selector: input[data-testid='composer:to']]}
+14:56:29.114 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:29.150 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> xpath: //button[@data-testid='composer:close-button']]}
+14:56:29.159 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> xpath: //button[@data-testid='composer:close-button']]}
+14:56:29.211 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:29.291 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> css selector: input[data-testid='composer:to']]}
+14:56:29.299 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> css selector: input[data-testid='composer:to']]}
+14:56:29.339 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+14:56:29.362 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
+14:56:29.372 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
+14:56:29.380 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:29.397 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:29.656 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> css selector: input[data-testid='composer:subject']]}
+14:56:29.665 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> css selector: input[data-testid='composer:subject']]}
+14:56:29.694 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:29.804 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clearing field and typing text into element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> css selector: input[data-testid='composer:subject']]}
+14:56:29.812 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> css selector: input[data-testid='composer:subject']]}
+14:56:29.815 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+14:56:29.815 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
+14:56:29.894 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:29.947 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
+14:56:30.006 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:30.137 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.JavaScriptUtils - Clear input and type into it using JS
+14:56:30.340 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> xpath: //button[@data-testid='composer:close-button']]}
+14:56:30.348 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> xpath: //button[@data-testid='composer:close-button']]}
+14:56:30.366 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:30.457 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+14:56:30.540 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
+14:56:30.556 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> xpath: //a[@data-testid='navigation-link:all-drafts']]}
+14:56:30.578 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:30.891 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+14:56:30.891 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
+14:56:31.013 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:31.396 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Sending email
+14:56:31.579 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+14:56:31.579 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for element presence by locator: By.xpath: //span[@title='test']
+14:56:31.597 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:31.640 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
+14:56:31.937 [TestNG-test-All Tests-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
+14:56:32.123 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for 'title' attribute to be populated for element: Decorated {[[ChromeDriver: chrome on mac (90b55d1a6731ef7842fd5a158842dd01)] -> xpath: //span[contains(@class, 'composer-addresses-fakefield-inner')]]}
+14:56:32.329 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.pages.AbstractPage - Switching to frame...
+14:56:32.541 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.util.TestListener - Test passed: testCreateAndVerifyDraft
+14:56:32.543 [TestNG-test-All Tests-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+14:56:32.743 [TestNG-test-All Tests-2] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.
+14:56:40.701 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+14:56:40.706 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Clicking on element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> xpath: //a[@data-testid='navigation-link:all-sent']]}
+14:56:40.709 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> xpath: //a[@data-testid='navigation-link:all-sent']]}
+14:56:40.718 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.HighlightListener - Highlighting element
+14:56:40.904 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
+14:56:40.944 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.pages.AbstractPage - Waiting for visibility of element: Decorated {[[ChromeDriver: chrome on mac (4e399eecbf7e50b79e79a5580061e764)] -> xpath: //span[@data-testid='message-row:subject']]}
+14:56:41.515 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.util.TestListener - Test passed: testSendEmailFromDrafts
+14:56:41.515 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+14:56:47.035 [TestNG-test-All Tests-3] DEBUG org.example.module08_1.drivers.DriverManager - Browser process successfully killed.

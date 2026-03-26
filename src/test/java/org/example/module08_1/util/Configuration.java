@@ -11,6 +11,7 @@ public class Configuration {
     private static final Logger log = LogManager.getLogger(Configuration.class);
     private final Properties properties;
     private static Configuration instance;
+
     private Configuration(){
         properties = new Properties();
         String env = System.getProperty("env", "dev");
@@ -24,6 +25,7 @@ public class Configuration {
             throw new RuntimeException("Cannot load config: " + env, e);
         }
     }
+
     public static synchronized Configuration getInstance(){
         if (instance == null) {
             instance = new Configuration();

@@ -40,6 +40,7 @@ public class DraftsPage extends AbstractPage {
             return false;
         }
     }
+
     public DraftsPage openDraft(String subject) {
         log.info("Opening latest draft");
         waitForElementLocated(subjectCheckLocator(subject)).click();
@@ -77,6 +78,7 @@ public class DraftsPage extends AbstractPage {
             return false;
         }
     }
+
     public SentPage openSentFolder() {
         log.info("Opening drafts page");
         click(sentFolder);

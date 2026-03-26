@@ -12,6 +12,7 @@ import java.io.ByteArrayInputStream;
 
 public class AllureScreenshot {
     private static final Logger log = LogManager.getLogger(AllureScreenshot.class);
+
     public static void saveScreenshotToAllure(){
         WebDriver driver = DriverManager.getDriver();
         Allure.addAttachment(

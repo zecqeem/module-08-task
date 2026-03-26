@@ -9,11 +9,12 @@ import org.openqa.selenium.support.events.EventFiringDecorator;
 public class DriverManager {
     private static final ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
     private static final Logger log = LogManager.getLogger(DriverManager.class);
+
     public static WebDriver getDriver() {
         WebDriver driver = driverThreadLocal.get();
         if (driver == null) {
             log.error("Driver has not been initialized Call initializeDriver() first.");
-            throw new RuntimeException();
+            throw new RuntimeException("Driver is null. Ensure initializeDriver() is called before getDriver().");
         }
         return driver;
     }

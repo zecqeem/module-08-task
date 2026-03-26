@@ -20,12 +20,14 @@ public class AbstractPage {
     protected WebDriver driver;
     protected WebDriverWait wait;
     protected JavaScriptUtils jsUtils;
+
     public AbstractPage() {
         this.driver = DriverManager.getDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(Integer.parseInt(DURATION)));
         PageFactory.initElements(driver, this);
         jsUtils = new JavaScriptUtils(driver);
     }
+
     protected WebElement waitForVisibility(WebElement element) {
         log.debug("Waiting for visibility of element: {}", element);
         return wait.until(ExpectedConditions.visibilityOf(element));
@@ -41,18 +43,19 @@ public class AbstractPage {
         waitForVisibility(element).clear();
         element.sendKeys(text);
     }
+
     protected void switchToFrame(WebElement frame) {
         log.debug("Switching to frame...");
         wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frame));
     }
+
     protected WebElement waitForElementLocated(By locator) {
         log.debug("Waiting for element presence by locator: {}", locator);
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
+
     protected void waitForTitleAttribute(WebElement data) {
         log.debug("Waiting for 'title' attribute to be populated for element: {}", data);
         wait.until(attributeToBeNotEmpty(data, "title"));
     }
-
-
 }

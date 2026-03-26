@@ -11,6 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 public class JavaScriptUtils {
     private final WebDriver driver;
     private static final Logger log = LogManager.getLogger(JavaScriptUtils.class);
+
     public JavaScriptUtils(WebDriver driver) {
         this.driver = driver;
     }

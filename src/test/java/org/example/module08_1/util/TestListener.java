@@ -16,6 +16,7 @@ public class TestListener implements ITestListener {
         String screenshotPath =ScreenshotUtil.takeScreenshot(result.getName());
         log.info("Screenshot saved locally: {}", screenshotPath);
     }
+
     @Override
     public void onTestStart(ITestResult result) {
         log.debug("Starting test: {}", result.getName());
