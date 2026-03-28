@@ -11,7 +11,7 @@ import java.util.List;
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
 public class DraftsPage extends AbstractPage {
-    private static final String SENT_NOTIFICATION = "Message send.";
+    private static final String SENT_NOTIFICATION = "Message sent.";
     @FindBy(xpath = "//span[contains(@class, 'composer-addresses-fakefield-inner')]")
     private WebElement destinationFieldInDrafts;
     @FindBy(xpath = "//button[@data-testid='composer:send-button']")
