@@ -27,7 +27,6 @@ public class DriverManager {
 
         WebDriver decoratedDriver = decorateDriver(driver);
 
-        decoratedDriver.manage().window().maximize();
         driverThreadLocal.set(decoratedDriver);
     }
 

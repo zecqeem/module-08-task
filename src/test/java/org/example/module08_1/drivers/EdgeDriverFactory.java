@@ -9,6 +9,10 @@ public class EdgeDriverFactory implements InterfaceDriverFactory{
     public WebDriver createDriver() {
         EdgeOptions options = new EdgeOptions();
         options.addArguments("--inprivate");
+        options.addArguments(
+                "--headless=new",
+                "--window-size=1920,1080"
+        );
         return new EdgeDriver(options);
     }
 }
