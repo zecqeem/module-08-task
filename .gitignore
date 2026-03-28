@@ -40,3 +40,8 @@ build/
 #### Sensitive files ###
 #dev.properties
 #qa.properties
+
+allure-results/
+allure-report/
+.idea/
+*.class
