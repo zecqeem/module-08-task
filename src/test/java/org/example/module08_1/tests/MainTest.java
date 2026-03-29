@@ -1,4 +1,5 @@
 package org.example.module08_1.tests;
+import com.epam.reportportal.service.ReportPortal;
 import org.example.module08_1.drivers.DriverManager;
 import org.example.module08_1.model.Email;
 import org.example.module08_1.model.User;
@@ -6,19 +7,15 @@ import org.example.module08_1.pages.DraftsPage;
 import org.example.module08_1.pages.LoginPage;
 import org.example.module08_1.pages.MainPage;
 import org.example.module08_1.pages.SentPage;
-import org.example.module08_1.util.AllureScreenshot;
-import org.example.module08_1.util.ConfigEmailReader;
-import org.example.module08_1.util.ConfigUserReader;
-import org.example.module08_1.util.TestListener;
+import org.example.module08_1.util.*;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
 import java.util.List;
 import static org.testng.Assert.*;
-@Listeners(TestListener.class)
+@Listeners({TestListener.class, ScreenshotHook.class})
 public class MainTest {
     private User user;
     private Email email;
@@ -32,10 +29,7 @@ public class MainTest {
     }
 
     @AfterMethod
-    public void shutDown(ITestResult result) {
-        if (result.getStatus() == ITestResult.FAILURE) {
-            AllureScreenshot.saveScreenshotToAllure();
-        }
+    public void shutDown() {
         DriverManager.quitDriver();
     }
 

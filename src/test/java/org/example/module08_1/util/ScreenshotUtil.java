@@ -1,5 +1,6 @@
 package org.example.module08_1.util;
 
+import com.epam.reportportal.service.ReportPortal;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.example.module08_1.drivers.DriverManager;
@@ -15,6 +16,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
 
 public class ScreenshotUtil {
     private static final Logger log = LogManager.getLogger(ScreenshotUtil.class);
