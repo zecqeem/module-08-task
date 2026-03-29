@@ -35,11 +35,18 @@ public class Configuration {
 
     public String get(String key) {
         log.debug("Fetching property by key: {}", key);
+        String systemProperty = System.getProperty(key);
+        if (systemProperty != null && !systemProperty.trim().isEmpty()) {
+            log.debug("Found property '{}' in System Properties", key);
+            return systemProperty;
+        }
+
         String value = properties.getProperty(key);
         if (value == null) {
             log.error("Key '{}' not found in configuration file", key);
             throw new RuntimeException("Key: " + key + " not found");
         }
+
         return value;
     }
 }

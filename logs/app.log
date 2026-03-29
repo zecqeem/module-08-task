@@ -369,3 +369,35 @@
 17:20:58.443 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
 17:20:58.541 [TestNG-test-All Tests-3] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
 17:20:59.082 [TestNG-test-All Tests-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+22:10:03.783 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+22:10:04.924 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+22:10:05.636 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+22:10:06.402 [main] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
+22:10:18.859 [main] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Allure.
+22:10:18.925 [main] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Report Portal.
+22:10:18.937 [main] ERROR org.example.module08_1.util.TestListener - Test failure: testSuccessfulLogin
+22:10:19.011 [main] INFO  org.example.module08_1.util.TestListener - Screenshot saved locally: /Users/zecqeem/IdeaProjects/module08_1/src/test/resources/screenshots/testSuccessfulLogin_2026-03-29_22-10-19.png
+22:10:19.012 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+22:17:13.350 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+22:17:14.518 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+22:17:15.384 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+22:17:16.178 [main] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
+22:17:28.623 [main] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Allure.
+22:17:28.689 [main] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Report Portal.
+22:17:28.701 [main] ERROR org.example.module08_1.util.TestListener - Test failure: testSuccessfulLogin
+22:17:28.761 [main] INFO  org.example.module08_1.util.TestListener - Screenshot saved locally: /Users/zecqeem/IdeaProjects/module08_1/src/test/resources/screenshots/testSuccessfulLogin_2026-03-29_22-17-28.png
+22:17:28.762 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+22:18:03.680 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+22:18:04.713 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+22:18:05.851 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+22:18:06.810 [main] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
+22:18:19.277 [main] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Allure.
+22:18:19.341 [main] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Report Portal.
+22:18:19.353 [main] ERROR org.example.module08_1.util.TestListener - Test failure: testSuccessfulLogin
+22:18:19.432 [main] INFO  org.example.module08_1.util.TestListener - Screenshot saved locally: /Users/zecqeem/IdeaProjects/module08_1/src/test/resources/screenshots/testSuccessfulLogin_2026-03-29_22-18-19.png
+22:18:19.433 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+22:22:08.345 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+22:22:09.452 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+22:22:10.198 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+22:22:10.976 [main] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
+22:22:17.735 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver

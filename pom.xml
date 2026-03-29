@@ -14,6 +14,10 @@
         <maven.compiler.target>21</maven.compiler.target>
         <maven.compiler.source>21</maven.compiler.source>
         <suiteXmlFile>smoke.xml</suiteXmlFile>
+        <user.password></user.password>
+        <rp.api.key></rp.api.key>
+        <env>dev</env>
+        <browser>chrome</browser>
 
         <allure.version>2.25.0</allure.version>
         <aspectj.version>1.9.22.1</aspectj.version>
@@ -49,7 +53,6 @@
             <version>${allure.version}</version>
             <scope>test</scope>
         </dependency>
-        <!-- Source: https://mvnrepository.com/artifact/com.epam.reportportal/agent-java-testng -->
         <dependency>
             <groupId>com.epam.reportportal</groupId>
             <artifactId>agent-java-testng</artifactId>
@@ -76,6 +79,12 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
+                    <systemPropertyVariables>
+                        <user.password>${user.password}</user.password>
+                        <rp.api.key>${rp.api.key}</rp.api.key>
+                        <env>${env}</env>
+                        <browser>${browser}</browser>
+                    </systemPropertyVariables>
                 </configuration>
                 <dependencies>
                     <dependency>
