@@ -23,7 +23,6 @@ public class LoginPage extends AbstractPage {
         log.info("Logging in with login: {}", user.getUsername());
         type(usernameInput,user.getUsername());
         type(passwordInput,user.getPassword());
-        System.out.println(user.getPassword());
         click(submitButton);
         return new MainPage();
     }
