@@ -1,12 +1,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Smoke Suite">
-    <test name="Login Tests">
+<suite name="CucumberSuite">
+    <test name="BDD Tests">
         <classes>
-            <class name="org.example.module08_1.tests.MainTest">
-                <methods>
-                    <include name="testSuccessfulLogin"/>
-                </methods>
-            </class>
+            <class name="org.example.module08_1.runners.TestRunner"/>
         </classes>
     </test>
     <listeners>
