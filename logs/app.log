@@ -1,312 +1,126 @@
-00:04:15.156 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:04:17.051 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:04:17.827 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-00:04:18.599 [main] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:04:31.108 [main] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Allure.
-00:04:31.240 [main] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Report Portal.
-00:04:31.241 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:04:31.329 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:04:32.087 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:04:33.063 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-00:04:33.807 [main] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:04:46.192 [main] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Allure.
-00:04:46.338 [main] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Report Portal.
-00:04:46.338 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:04:46.424 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:04:47.238 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:04:48.693 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-00:04:49.977 [main] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:10:13.878 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:10:15.456 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:10:16.084 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-00:10:16.780 [main] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:10:29.101 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:10:29.191 [main] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:10:29.214 [main] ERROR org.example.module08_1.util.TestListener - Test failure: runScenario
-00:10:29.215 [main] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:10:29.220 [main] ERROR org.example.module08_1.util.TestListener - Test failure: runScenario
-00:10:29.220 [main] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:11:23.237 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:11:24.582 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:11:25.354 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem1@proton.me
-00:11:26.125 [main] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:13:10.463 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:13:11.780 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:13:12.578 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:13:13.541 [main] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:13:22.125 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:13:22.228 [main] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:13:24.292 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:13:24.433 [main] INFO  org.example.module08_1.pages.AbstractPage - Sending email
-00:13:24.596 [main] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
-00:13:29.317 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:13:29.431 [main] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
-00:13:29.966 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:13:30.083 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:13:30.946 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:13:31.669 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:13:32.344 [main] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:13:44.726 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:13:44.913 [main] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:13:45.436 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:13:45.539 [main] INFO  org.example.module08_1.pages.AbstractPage - Sending email
-00:13:46.266 [main] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
-00:13:49.428 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:13:49.536 [main] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
-00:13:50.109 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:14:05.959 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:14:06.775 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:14:07.651 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:14:08.922 [main] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:14:18.124 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:14:18.237 [main] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:14:20.299 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:14:20.428 [main] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:14:20.480 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:14:20.568 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:14:21.340 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:14:22.015 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:14:22.694 [main] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:14:34.633 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:14:34.742 [main] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:14:35.811 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:14:35.932 [main] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:14:35.975 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:19:04.565 [TestNG-PoolService-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:19:04.565 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:19:04.565 [TestNG-PoolService-4] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:19:04.565 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:19:06.087 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:19:06.087 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:19:06.087 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:19:06.087 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:19:07.202 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:19:07.202 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:19:08.085 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:19:08.122 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:19:08.126 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:19:08.370 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:19:09.390 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:19:10.084 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:19:18.349 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:19:18.476 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:19:18.829 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:19:18.943 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:19:19.008 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:19:19.159 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:19:19.476 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:19:19.660 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:19:19.824 [TestNG-PoolService-4] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:19:20.340 [TestNG-PoolService-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:19:21.072 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:19:21.211 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:19:21.992 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:19:22.168 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:19:22.264 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:19:22.385 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Sending email
-00:19:22.573 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
-00:19:22.707 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:19:22.820 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Sending email
-00:19:23.491 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
-00:19:26.705 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:19:26.812 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
-00:19:27.366 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:19:28.725 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:19:28.840 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
-00:19:29.390 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:23:25.653 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:23:25.653 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:23:26.961 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:23:26.961 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:23:27.831 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:23:28.117 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:23:28.537 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:23:29.896 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:23:38.020 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:23:38.132 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:23:38.179 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:23:38.319 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:23:38.697 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:23:38.817 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:23:38.887 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:23:39.013 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:23:39.101 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:23:39.369 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:25:28.069 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:25:28.069 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:25:29.539 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:25:29.539 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:25:30.156 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:25:30.677 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:25:43.236 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:25:43.328 [TestNG-PoolService-1] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:25:43.360 [TestNG-PoolService-1] ERROR org.example.module08_1.util.TestListener - Test failure: runScenario
-00:25:43.361 [TestNG-PoolService-1] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:25:43.670 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:25:43.755 [TestNG-PoolService-2] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:25:43.757 [TestNG-PoolService-2] ERROR org.example.module08_1.util.TestListener - Test failure: runScenario
-00:25:43.757 [TestNG-PoolService-2] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:25:43.762 [main] ERROR org.example.module08_1.util.TestListener - Test failure: runScenario
-00:25:43.762 [main] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:27:42.926 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:27:42.926 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:27:44.017 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:27:44.017 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:27:44.673 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:27:44.743 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:27:45.364 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:27:45.529 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:27:54.055 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:27:54.284 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:27:54.557 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:27:54.699 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:27:54.840 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:27:54.976 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:27:55.032 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:27:55.115 [TestNG-PoolService-1] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:27:55.142 [TestNG-PoolService-1] ERROR org.example.module08_1.util.TestListener - Test failure: runScenario
-00:27:55.143 [TestNG-PoolService-1] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:27:55.248 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:27:55.374 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:27:55.452 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:27:55.532 [TestNG-PoolService-2] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:27:55.534 [TestNG-PoolService-2] ERROR org.example.module08_1.util.TestListener - Test failure: runScenario
-00:27:55.534 [TestNG-PoolService-2] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:27:55.539 [main] ERROR org.example.module08_1.util.TestListener - Test failure: runScenario
-00:27:55.539 [main] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:31:05.831 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:31:05.831 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:31:07.211 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:31:07.211 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:31:07.932 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:31:08.109 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:31:08.746 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:31:08.840 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:31:15.927 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:31:16.061 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:31:16.609 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:31:16.763 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:31:16.833 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:31:16.964 [TestNG-PoolService-1] ERROR org.example.module08_1.util.TestListener - Test failure: runScenario
-00:31:16.964 [TestNG-PoolService-1] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:31:17.448 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:31:17.562 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:31:18.107 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:31:18.230 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:31:18.840 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:31:18.927 [TestNG-PoolService-2] ERROR org.example.module08_1.util.TestListener - Test failure: runScenario
-00:31:18.927 [TestNG-PoolService-2] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:31:18.932 [main] ERROR org.example.module08_1.util.TestListener - Test failure: runScenario
-00:31:18.933 [main] ERROR org.example.module08_1.drivers.DriverManager - Driver has not been initialized Call initializeDriver() first.
-00:33:01.319 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:33:01.319 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:33:02.453 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:33:02.453 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:33:03.313 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:33:03.764 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:33:03.993 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:33:04.534 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:33:14.644 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:33:14.781 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:33:17.532 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:33:17.677 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:33:17.985 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:33:18.130 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:33:18.221 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:33:18.347 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:33:18.710 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:33:18.897 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:34:10.522 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:34:10.522 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:34:11.835 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:34:11.835 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:34:12.592 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:34:12.620 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:34:13.431 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:34:13.816 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:34:23.107 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:34:23.250 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:34:23.789 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:34:23.927 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:34:24.114 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:34:24.245 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:34:24.806 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:34:24.943 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:34:25.183 [TestNG-PoolService-1] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Allure.
-00:34:25.298 [TestNG-PoolService-1] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Report Portal.
-00:34:25.298 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:34:26.121 [TestNG-PoolService-2] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Allure.
-00:34:26.159 [TestNG-PoolService-2] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Report Portal.
-00:34:26.159 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:35:35.801 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:35:35.801 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:35:37.218 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:35:37.218 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:35:37.942 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:35:38.032 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:35:51.185 [TestNG-PoolService-1] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Allure.
-00:35:51.261 [TestNG-PoolService-1] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Report Portal.
-00:35:51.261 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:35:51.516 [TestNG-PoolService-2] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Allure.
-00:35:51.593 [TestNG-PoolService-2] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Report Portal.
-00:35:51.594 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:38:09.486 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:38:09.486 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:38:10.558 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:38:10.558 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:38:11.206 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:38:11.227 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:38:11.921 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:38:12.164 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:38:21.754 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:38:21.891 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:38:22.490 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:38:22.647 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:38:22.967 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:38:23.106 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:38:23.233 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:38:24.748 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:38:24.879 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:38:25.468 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:38:44.527 [TestNG-PoolService-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:38:44.527 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:38:44.527 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:38:44.527 [TestNG-PoolService-4] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
-00:38:46.250 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:38:46.250 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:38:46.250 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:38:46.250 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
-00:38:46.903 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:38:46.905 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:38:47.738 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:38:47.757 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
-00:38:47.969 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:38:48.225 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:38:48.994 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:38:49.042 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
-00:38:55.636 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:38:55.825 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:38:56.361 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:38:56.506 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:38:56.559 [TestNG-PoolService-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:38:58.864 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:38:59.072 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:38:59.426 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:38:59.658 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:39:00.350 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:39:00.548 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Sending email
-00:39:00.734 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
-00:39:00.907 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:39:01.068 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
-00:39:02.176 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:39:02.215 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
-00:39:02.371 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Sending email
-00:39:02.438 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
-00:39:02.726 [TestNG-PoolService-4] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:39:03.654 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
-00:39:05.470 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:39:05.587 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
-00:39:06.658 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
-00:39:06.792 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
-00:39:06.914 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
-00:39:07.464 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+10:30:38.574 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+10:30:38.574 [TestNG-PoolService-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+10:30:38.574 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+10:30:38.574 [TestNG-PoolService-4] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+10:30:40.808 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+10:30:40.808 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+10:30:41.551 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+10:30:41.569 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+10:30:42.308 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+10:30:42.423 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+10:30:43.431 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+10:30:43.673 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+10:30:44.163 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+10:30:44.278 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+10:30:44.852 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+10:30:45.025 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+10:30:51.169 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:30:51.317 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+10:30:51.861 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+10:30:51.998 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Sending email
+10:30:52.676 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
+10:30:54.385 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:30:54.539 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+10:30:55.092 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+10:30:55.326 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Sending email
+10:30:55.995 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:30:56.214 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+10:30:56.565 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
+10:30:56.862 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:30:57.023 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
+10:30:57.259 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+10:30:57.421 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
+10:30:57.440 [TestNG-PoolService-3] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Allure.
+10:30:57.527 [TestNG-PoolService-3] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Report Portal.
+10:30:57.527 [TestNG-PoolService-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+10:30:58.023 [TestNG-PoolService-4] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+10:30:58.063 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+10:30:59.699 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:30:59.813 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
+10:31:00.375 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+10:33:48.626 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+10:33:48.626 [TestNG-PoolService-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+10:33:48.626 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+10:33:48.626 [TestNG-PoolService-4] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+10:33:50.563 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+10:33:50.563 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+10:33:50.563 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+10:33:50.563 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+10:33:51.268 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+10:33:51.307 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+10:33:51.319 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+10:33:51.372 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+10:33:52.166 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+10:33:52.166 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+10:33:52.170 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+10:33:52.587 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+10:34:00.960 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:34:00.985 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:34:01.292 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+10:34:01.293 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+10:34:01.949 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+10:34:01.949 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+10:34:02.330 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
+10:34:02.361 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
+10:34:02.471 [TestNG-PoolService-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+10:34:02.666 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:34:02.827 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+10:34:02.949 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:34:02.957 [TestNG-PoolService-4] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+10:34:03.148 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+10:34:03.363 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+10:34:03.515 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Sending email
+10:34:03.694 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+10:34:03.842 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Sending email
+10:34:04.517 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
+10:34:04.715 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
+10:34:07.329 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:34:07.470 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
+10:34:08.039 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+10:34:09.183 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:34:09.311 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
+10:34:09.973 [TestNG-PoolService-1] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Allure.
+10:34:10.069 [TestNG-PoolService-1] INFO  org.example.module08_1.util.ScreenshotReporter - Screenshot attached to Report Portal.
+10:34:10.069 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+10:37:44.645 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+10:37:44.645 [TestNG-PoolService-4] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+10:37:44.645 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+10:37:44.645 [TestNG-PoolService-3] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+10:37:46.317 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+10:37:46.317 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+10:37:46.317 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+10:37:46.317 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+10:37:47.131 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+10:37:47.131 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+10:37:47.142 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+10:37:47.265 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+10:37:48.469 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+10:37:48.469 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+10:37:48.533 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+10:37:48.541 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Creating a new message
+10:37:57.155 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:37:57.309 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+10:37:57.461 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:37:57.617 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+10:37:57.860 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+10:37:57.878 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:37:58.081 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+10:37:58.084 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Sending email
+10:37:58.275 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+10:37:58.448 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
+10:37:58.601 [TestNG-PoolService-3] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
+10:37:58.709 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+10:37:58.841 [TestNG-PoolService-3] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+10:37:58.926 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Sending email
+10:37:59.521 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:37:59.630 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Waiting for email to be send
+10:37:59.681 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Verifying drafts presence
+10:38:00.011 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:38:00.146 [TestNG-PoolService-2] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
+10:38:00.231 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Opening latest draft
+10:38:00.385 [TestNG-PoolService-4] INFO  org.example.module08_1.pages.AbstractPage - Gathering draft letter data
+10:38:01.235 [TestNG-PoolService-2] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+10:38:01.973 [TestNG-PoolService-4] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+10:38:04.314 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Opening drafts page
+10:38:04.456 [TestNG-PoolService-1] INFO  org.example.module08_1.pages.AbstractPage - Checking if email was sent and has correct data
+10:38:05.008 [TestNG-PoolService-1] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
