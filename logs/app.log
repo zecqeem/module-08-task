@@ -3,3 +3,8 @@
 03:08:30.697 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
 03:08:31.400 [main] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
 03:08:40.246 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver
+09:59:53.523 [main] INFO  org.example.module08_1.drivers.DriverManager - Initializing browser: chrome
+09:59:55.005 [main] INFO  org.example.module08_1.pages.AbstractPage - Opening login page
+09:59:55.654 [main] INFO  org.example.module08_1.pages.AbstractPage - Logging in with login: zecqeem2@proton.me
+09:59:56.421 [main] INFO  org.example.module08_1.pages.AbstractPage - Verifying logging in
+10:00:03.459 [main] INFO  org.example.module08_1.drivers.DriverManager - Quitting driver

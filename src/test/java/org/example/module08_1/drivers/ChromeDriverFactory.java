@@ -12,10 +12,10 @@ public class ChromeDriverFactory implements InterfaceDriverFactory{
     public WebDriver createDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
-        options.addArguments(
-                "--headless=new",
-                "--window-size=1920,1080"
-        );
+//        options.addArguments(
+//                "--headless=new",
+//                "--window-size=1920,1080"
+//        );
         return new ChromeDriver(options);
     }
 }
